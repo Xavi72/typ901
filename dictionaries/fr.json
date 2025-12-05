@@ -1,10 +1,10 @@
 {
-  
   "landing": {
-    "title": "Bienvenue",
     "hero": {
-      "title1": "Reconditionnement",
-      "title2": "de véhicules"
+      "title": ["Porsche","classics","Specialist"]
+    },
+    "intro": {
+      "quote": "Les classiques ne meurent jamais, elles renaissent..."
     }
   }
 }

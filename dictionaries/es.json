@@ -1,9 +1,18 @@
 {
   "landing": {
-    "title": "Bienvenido",
     "hero": {
-      "title1": "Reacondicionamiento",
-      "title2": "de vehículos"
-    }
+      "title": ["Especialista", "Porsche", "classics"]
+    },
+    "intro": {
+      "quote": "Los classicos no mueren nunca, renacen..."
+    },
+    "texts": [
+      "Como testigos de la historia de la marca y con la profunda conciencia de la responsbilidad de su legado y herencia, proporcionamos nuestra expertise para preservar y restaurar algunos de los modelos más icónicos."
+    ],
+    "content": [
+      "Solo nos encargamos de unas pocas unidades cada año.",
+      "Algunas de ellas son proyectos especiales solicitados por nuestros clientes, el resto son coches valiosos encontrados por todo el mundo que podemos vender una vez completados o no."
+    ],
+    "cta": "Reserve su lugar"
   }
 }

@@ -1,10 +1,13 @@
 {
-  
   "landing": {
-    "title": "Welcome",
     "hero": {
-      "title1": "Cars",
-      "title2": "reconditioning"
+      "title": ["Porsche","classics","Specialist"]
+    },
+    "intro": {
+      "quote": "Classic cars never die, they are reborn...",
+      "texts": ["As witness of the history of the brand and with the deep awareness of its legacy and heritage responsability, we provide our expertise to restore and preserve some of the most iconic models."],
+      "content": ["At Type901, we only take care of a few units each year.", "Some of them are special projects requested by our customers, the rest are valuable cars that we've found around the globe and may sell once completed or not."],
+      "cta": "Check our current projects"
     }
   }
 }

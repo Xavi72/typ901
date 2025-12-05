@@ -9,10 +9,11 @@
   --breakpoint-2xl: 1280px;
 
   --font-typ901: "typ901", sans-serif;
-
+ 
 }
 
 @font-face {
   font-family: "typ901";
   src: url("/fonts/p-regular.ttf");
 }
+
