@@ -1,5 +1,6 @@
 import { getDictionary } from "@/app/[lang]/dictionaries";
 import Burger from "@/public/assets/icons/burger.svg";
+import Link from "next/link";
 
 /* eslint-disable @next/next/no-img-element */
 export default async function Header({ params }: { params: { lang: string } }) {
@@ -10,13 +11,16 @@ export default async function Header({ params }: { params: { lang: string } }) {
   return (
     <header className="fixed w-full h-20 z-40">
       <div className="flex w-full h-full px-[2%] justify-between items-center gap-4 sm:gap-8 md:gap-8">
-        <div className="flex w-20 md:w-32 shrink-0 h-auto">
+        <Link
+          href={`/${lang}`}
+          className="flex w-20 md:w-32 shrink-0 h-auto cursor-pointer active:scale-95 transition-all ease-in-out duration-200"
+        >
           <img
             src="/assets/images/logo-typ901.webp"
             alt="logo typ901"
             className="w-full h-auto object-cover"
           />
-        </div>
+        </Link>
 
         {/* <div className="flex flex-row flex-wrap w-auto h-auto gap-3 text-center justify-center">
           {dict?.landing?.hero.title.map((title: string, index: number) => (
