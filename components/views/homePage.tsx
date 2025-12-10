@@ -1,6 +1,7 @@
 import { getDictionary } from "@/app/[lang]/dictionaries";
 import HeroSection from "@/components/molecules/homepageSections/heroSection";
-import IntroSection from "@/components/molecules/homepageSections/introSection";
+import RestaurationSection from "@/components/molecules/homepageSections/restorationSection";
+import ServicesSection from "@/components/molecules/homepageSections/servicesSection";
 
 export default async function HomePage({
   params,
@@ -12,12 +13,15 @@ export default async function HomePage({
   const dict: any = await getDictionary(lang);
 
   return (
-    <div className="snap-y snap-mandatory overflow-y-scroll h-screen">
+    <div className="snap-y snap-mandatory overflow-y-scroll h-screen bg-gray-800">
       <div className="snap-always snap-start h-[100dvh]">
         <HeroSection dict={dict} />
       </div>
-      <div className="snap-always snap-start h-auto min-h-[70%] flex justify-center bg-gray-800">
-        <IntroSection dict={dict} />
+      <div className="snap-always snap-start h-auto flex justify-center bg-gray-800">
+        <ServicesSection dict={dict} usedLanguage={lang} />
+      </div>
+      <div className="snap-always snap-start h-full min-h-[100dvh] flex justify-center bg-gray-700">
+        <RestaurationSection dict={dict} />
       </div>
     </div>
   );

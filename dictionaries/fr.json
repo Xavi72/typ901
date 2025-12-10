@@ -1,10 +1,15 @@
 {
   "landing": {
     "hero": {
-      "title": ["Porsche","classics","Specialist"]
+      "title": ["Les anciennes ne meurent jamais,","elles renaissent..."]
     },
     "intro": {
-      "quote": "Les classiques ne meurent jamais, elles renaissent..."
+      "quote": "Les anciennes ne meurent jamais, elles renaissent...",
+    "content": [
+      "Témoins de l'histoire de la marque et profondément conscient de notre responsabilité envers son patrimoine et héritage, nous fournissons notre expertise pour restaurer et préserver certains des modèles les plus iconiques.","À Typ901, nous nous chargeons de seulement quelques voitures chaque année.",
+      "Certaines sont des projets spéciaux commandités par nos clients, le reste sont des modèles rares trouvés aux quatre coins du monde que nous mettrons en vente ou non, une fois achevés."
+    ],
+    "cta": "Voir nos projets actuels"
     }
   }
 }

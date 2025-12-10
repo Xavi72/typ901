@@ -1,18 +1,16 @@
 {
   "landing": {
     "hero": {
-      "title": ["Especialista", "Porsche", "classics"]
+      "title": ["Los classicos no mueren nunca,","renacen..."]
     },
     "intro": {
-      "quote": "Los classicos no mueren nunca, renacen..."
-    },
-    "texts": [
-      "Como testigos de la historia de la marca y con la profunda conciencia de la responsbilidad de su legado y herencia, proporcionamos nuestra expertise para preservar y restaurar algunos de los modelos más icónicos."
+      "quote": "Los classicos no mueren nunca, renacen...",
+      "content": [
+      "Como testigos de la historia de la marca y con la profunda conciencia de nuestra responsabilidad sobre su legado y herencia, proporcionamos nuestra expertise para preservar y restaurar algunos de los modelos más icónicos.","En Typ901, solo nos encargamos de unas pocas unidades cada año.",
+      "Algunas de ellas son proyectos especiales solicitados por nuestros clientes, el resto son modelos valiosos encontrados por todo el mundo que pondremos o no a la venta una vez completados."
     ],
-    "content": [
-      "Solo nos encargamos de unas pocas unidades cada año.",
-      "Algunas de ellas son proyectos especiales solicitados por nuestros clientes, el resto son coches valiosos encontrados por todo el mundo que podemos vender una vez completados o no."
-    ],
-    "cta": "Reserve su lugar"
+    "cta": "Ver nuestros proyectos actuales"
+    }
+    
   }
 }
