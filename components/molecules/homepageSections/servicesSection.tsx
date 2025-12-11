@@ -26,12 +26,12 @@ const ServicesSection = ({
             <div className="flex flex-row flex-wrap w-full h-auto px-4 md:px-0 justify-center text-center gap-x-4 gap-y-0">
               {dict?.landing?.services?.title.map(
                 (text: string, index: number) => (
-                  <p
+                  <h2
                     key={index}
                     className="font-typ901 text-red-500 text-[16px] sm:text-[26px] font-normal text-pretty text-center text-shadow-black text-shadow-sm"
                   >
                     {text}
-                  </p>
+                  </h2>
                 )
               )}
             </div>
@@ -54,8 +54,8 @@ const ServicesSection = ({
                     href={`/${usedLanguage}${service.link}`}
                     key={index}
                     className={`
-                      flex flex-col w-full h-auto min-h-36 p-4 justify-center overflow-hidden gap-4
-                      hover:bg-white/10 rounded-sm transition-all ease-in-out duration-200
+                      flex flex-col w-full h-auto min-h-36 px-2 py-4 overflow-hidden gap-4 bg-black/10 
+                      hover:bg-white/5 rounded-sm transition-all ease-in-out duration-200
                       cursor-pointer active:scale-95 
                     `}
                   >

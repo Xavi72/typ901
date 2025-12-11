@@ -1,19 +1,10 @@
 {
   "landing": {
     "hero": {
-      "title": ["Classic cars never die,", "they are reborn..."]
-    },
-    "intro": {
-      "quote": "Classic cars never die, they are reborn...",
-      "content": [
-        "As witness of the history of the brand and with the deep awareness of our responsability on its legacy and heritage, we provide our expertise to restore and preserve some of the most iconic models.",
-        "At Type901, we only take care of a few units each year.",
-        "Some of them are special projects requested by our customers, the rest are valuable cars that we've found around the globe and may sell or not once completed ."
-      ],
-      "cta": "Check our current projects"
+      "title": ["Classic Porsches never die,", "they are reborn..."]
     },
     "services": {
-      "title": ["Porsche","classics", "specialist"],
+      "title": ["Porsche", "classics", "specialist"],
       "subtitle": ["Pasionate professionals,", "not just suppliers"],
       "content": [
         {
@@ -37,6 +28,92 @@
           "link": "/preservation"
         }
       ]
+    },
+    "restoration": {
+      "sectionTitle": "A Journey Through Time",
+      "title": "Preserving Porsche Heritage",
+      "subtitle": "As witness of the history of the brand, we embrace the responsability of its legacy to preserve and restore some of the most iconic models.",
+      "responsability": {
+        "title": ["Our responsability", "to authenticity"],
+        "content": [
+          "We understand that when you entrust us with your Porsche to restore, you're sharing a piece of automotive history.",
+          "Our commitment goes beyond repair. We preserve the soul of each vehicle, maintaining every original specification with meticulous care and period-correct techniques."
+        ],
+        "cta": "Learn more"
+      },
+      "restoration": {
+        "title": ["Our restoration", "philosophy"],
+        "content": ["The Journey to Authenticity"],
+        "methodology": {
+          "title": "Our restoration philosophy",
+          "subtitle": [
+            "Each process is unique,  depending on the condition of the vehicle.",
+            "No matter the model, we always start from the same point in order to deliver the best result."
+          ],
+          "content": [
+            {
+              "title": "Assessment",
+              "description": "Complete documentation and evaluation of current condition"
+            },
+            {
+              "title": "Disassembly",
+              "description": "Careful cataloging and photography of every component"
+            },
+            {
+              "title": "Restoration",
+              "description": "Precision work using original specifications and techniques"
+            },
+            {
+              "title": "Rebuilding",
+              "description": "Meticulous reassembly with verified authentic parts"
+            },
+            {
+              "title": "Quality Control",
+              "description": "Final inspection and testing to ensure authenticity prior delivery"
+            }
+          ]
+        }
+      }
+    },
+    "projects": {
+      "slots": {
+        "title": "Secure a slot now",
+        "badge": "limited availability for 2026",
+        "content": [
+          "Our commitment to authenticity means we accept only a limited number of restoration projects each year. For 2026, we have reserved just six slots for comprehensive restorations."
+        ],
+        "cta_1": "Begin a consultation",
+        "cta_2": ["Call us at ","+34 936 829 350"],
+        "slot_year": "2026 restoration slots",
+        "remaining_slots": "slots remaining"
+       
+      },
+      "projects": {
+        "title": "Undergoing projects",
+        "subtitle": ["Some of them are special customers projects and the rest valuable cars found around the globe that we may sell or will join our private collection."],
+        "content": [
+         
+          {
+            "title": "1965 911 ",
+            "description": "Coming from Rudy Klein junkyard auction in early 2025",
+            "image_url": "/assets/images/rk-1965.webp"
+          },
+          {
+            "title": "1974 911 2,7 Carrera",
+            "description": "A true unicorn in original Magenta (Karminrot) — one of the rarest and most eye-catching specs ever delivered.",
+            "image_url": "/assets/images/2-7-carrera-1975.webp"
+          },
+          {
+            "title": "1964 356 SC",
+            "description": "A blue bali beauty, almost ready to go back to his owner.",
+            "image_url": "/assets/images/bb-356-sc.webp"
+          }
+        ],
+        "cta_1": "Begin a consultation",
+        "cta_2": "Call us at +34 936 829 350",
+        "slot_year": "2026 restoration slots",
+        "remaining_slots": "slots remaining"
+      }
     }
   }
 }

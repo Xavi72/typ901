@@ -17,9 +17,10 @@ const HeroSection = ({ dict }: { dict: any }) => {
               key={index}
             >
               <h1
-                className={` ${
+                className={`text-shadow-black text-shadow-sm font-semibold  ${
                   index > 0 ? "text-red-500" : "text-white"
-                } text-[20px] sm:text-[32px] md:text-[48px] text-center  tracking-widest`}
+                } text-[20px] sm:text-[32px] md:text-[48px] text-center tracking-widest
+                `}
               >
                 {title}
               </h1>
