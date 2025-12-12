@@ -28,27 +28,13 @@ export default async function HomePage({
           usedLanguage={lang}
         />
       </div>
-      <div className="snap-always snap-start h-auto flex justify-center bg-gray-800">
+      <div className="snap-always snap-start h-auto flex justify-center ">
         <ProjectsSection dict={dict?.landing?.projects} usedLanguage={lang} />
       </div>
-      <div className="snap-always snap-start h-auto flex justify-center bg-gray-800">
+      <div className="snap-always snap-start h-full flex justify-center bg-black/5">
         {/* Cars for sale or to buy looking for special units */}
       </div>
-      <div className="snap-always snap-start h-auto flex justify-center bg-gray-800">
-        {/* Slots available for restoration 2026 */}
-        {/* <img
-          src="/assets/images/exploted-928.png"
-          alt="image typ901"
-          className="w-full h-full object-cover object-center backdrop-hue-rotate-90"
-        /> */}
-        <div className="bg-[url(/assets/images/exploted-928.png)] flex w-full h-screen bg-no-repeat bg-cover bg-center">
-          <div className="bg-white/0 flex w-full h-screen backdrop-brightness-50 justify-center items-center">
-            <h3 className="flex w-full h-auto justify-center text-[24px] sm:text-[36px] text-red-500 text-shadow-black text-shadow-sm font-semibold items-center">
-              Preserving Porsche Heritage
-            </h3>
-          </div>
-        </div>
-      </div>
+      <div className="snap-always snap-start h-auto flex justify-center bg-gray-800"></div>
       <div className="snap-always snap-start h-auto flex justify-center bg-gray-800">
         {/* Rolling museum */}
       </div>

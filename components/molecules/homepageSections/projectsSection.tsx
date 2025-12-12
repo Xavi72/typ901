@@ -15,9 +15,9 @@ const ProjectsSection = ({
   const remainingSlots = [1, 2];
 
   return (
-    <section className="flex flex-col w-full max-w-[1280px] h-auto min-h-screen my-20 px-4 md:px-8 md:justify-center items-center">
+    <section className="flex flex-col w-full max-w-[1280px] h-auto my-20 px-4 md:px-8 md:justify-center items-center overflow-scroll">
       <div className="flex flex-col w-full h-auto">
-        <ProjectSlider dict={dict?.projects} usedLanguage={usedLanguage} />
+        <ProjectSlider dict={dict?.projects} />
       </div>
       <div className="flex flex-col w-full h-auto mt-20 items-center">
         <div className="flex flex-col w-full h-auto items-center gap-4">

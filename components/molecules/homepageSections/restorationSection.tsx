@@ -49,7 +49,7 @@ const RestaurationSection = ({
           <div className="flex w-full h-auto ">
             <Link
               href={`/${usedLanguage}/restoration`}
-              className="flex w-auto h-auto bg-white/5 rounded-sm px-4 py-2 mt-2 gap-4 hover:bg-white/10 transition-all ease-in-out duration-200 cursor-pointer active:scale-95"
+              className="flex w-auto h-auto border-[0.5px] border-red-500/50 rounded-sm px-4 py-2 mt-2 gap-4 hover:bg-white/10 transition-all ease-in-out duration-200 cursor-pointer active:scale-95"
             >
               <p className="flex w-full h-auto text-xs md:text-sm text-white font-semibold">
                 {dict?.responsability?.cta}
@@ -57,16 +57,16 @@ const RestaurationSection = ({
             </Link>
           </div>
         </div>
-        <div className="grid grid-cols-2 w-full md:w-2/3 h-auto min-h-[360px] lg:min-h-auto lg:max-h-[300px] gap-4 rounded-sm overflow-hidden">
+        <div className="grid grid-cols-2 w-full md:w-2/3 h-[240px] md:h-auto md:min-h-[360px] lg:min-h-auto  lg:max-h-[300px] gap-4 rounded-sm overflow-hidden">
           <img
             src="/assets/images/engine.webp"
             alt="typ901 responsability"
-            className="flex w-auto h-[360px] md:h-auto min-h-[360px] object-cover object-center rounded-sm brightness-90 hover:brightness-100"
+            className="flex w-full h-[240px] md:h-[360px] md:h-auto md:min-h-[360px] object-cover object-center rounded-sm brightness-90 hover:brightness-100"
           />
           <img
             src="/assets/images/bodywork-2.webp"
             alt="typ901 responsability"
-            className="flex w-auto h-[360px] md:h-auto min-h-[360px] object-cover object-center rounded-sm brightness-90 hover:brightness-100"
+            className="flex w-auto h-[240px] md:h-[360px] md:h-auto md:min-h-[360px] object-cover object-center rounded-sm brightness-90 hover:brightness-100"
           />
         </div>
       </div>

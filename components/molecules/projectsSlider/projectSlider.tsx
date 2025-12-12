@@ -4,18 +4,13 @@
 
 import { useState } from "react";
 
-const ProjectSlider = ({
-  dict,
-  usedLanguage,
-}: {
-  dict: any;
-  usedLanguage: string;
-}) => {
-  const [currentProject, setCurrentProject] = useState(0);
-  const [selectedProject, setSelectedProject] = useState(
-    dict?.content?.[0]?.image_url
+const ProjectSlider = ({ dict }: { dict: any }) => {
+  const [currentProject, setCurrentProject] = useState(
+    dict?.content?.[0]?.title || ""
   );
-
+  const [selectedProject, setSelectedProject] = useState(
+    dict?.content?.[0]?.image_url || ""
+  );
   return (
     <div className="flex flex-col w-full h-auto ">
       <div className="flex flex-col w-full h-auto items-center gap-4">
@@ -38,9 +33,9 @@ const ProjectSlider = ({
       <div className="flex flex-col-reverse md:flex-row w-full h-auto mt-8 gap-4 md:gap-8">
         <div className="flex w-full md:w-1/2 h-auto min-h-[360px] max-h-[360px] gap-4 rounded-sm overflow-hidden">
           <img
-            src={`${selectedProject}`}
+            src={`${selectedProject}` || "/assets/images/rk-1965.webp"}
             alt="typ901 responsability"
-            className="flex w-full h-[360px]  object-cover object-center rounded-sm brightness-90 hover:brightness-100"
+            className="flex w-full h-[360px] object-cover object-center rounded-sm brightness-90 hover:brightness-100"
           />
         </div>
         <div className="flex flex-row md:flex-col w-full md:w-1/2 h-auto gap-2 md:gap-4 overflow-scroll">
