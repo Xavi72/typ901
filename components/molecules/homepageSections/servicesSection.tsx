@@ -14,14 +14,14 @@ const ServicesSection = ({
   return (
     <section className="flex flex-col w-full h-auto items-center overflow-scroll">
       <div className="flex flex-col md:flex-row w-full h-full ">
-        <div className="flex flex-col w-full md:w-1/2 h-2/5 md:h-full bg-gray-900/30  overflow-hidden">
+        <div className="flex flex-col w-full md:w-1/2 h-auto md:h-full bg-gray-900/30  overflow-hidden">
           <img
             src="/assets/images/front-workshop-typ901.png"
             alt="Type901 workshop front door"
             className="w-auto h-full object-cover object-top-right"
           />
         </div>
-        <div className="flex flex-col w-full md:w-1/2 h-full px-4 py-20">
+        <div className="flex flex-col w-full md:w-1/2 h-full px-4 sm:py-20">
           <div className="flex flex-col w-full h-full justify-center gap-6 md:gap-8">
             <div className="flex flex-row flex-wrap w-full h-auto px-4 md:px-0 justify-center text-center gap-x-4 gap-y-0">
               {dict?.landing?.services?.title.map(
