@@ -3,13 +3,7 @@
 
 import Link from "next/link";
 
-const RollingMuseumSection = ({
-  dict,
-  usedLanguage,
-}: {
-  dict: any;
-  usedLanguage: string;
-}) => {
+const RollingMuseumSection = ({ dict }: { dict: any }) => {
   return (
     <section className="flex flex-col w-full max-w-[1280px] h-auto min-h-[100dvh] py-20 px-4 md:px-8 md:justify-center items-left overflow-scroll">
       <div className="flex flex-col w-full h-auto items-center">

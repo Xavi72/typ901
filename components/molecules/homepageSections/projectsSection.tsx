@@ -62,17 +62,14 @@ const ProjectsSection = ({
         </div>
         <div className="flex flex-col sm:flex-row w-full h-auto mt-6 justify-center items-center gap-4 sm:gap-8">
           <Link
-            href={`/${usedLanguage}/restoration`}
+            href={`/${usedLanguage}/contact`}
             className="flex w-auto min-w-[192px] h-auto bg-red-500/80 items-center rounded-sm px-4 py-2 mt-2 gap-4 hover:bg-white/10 transition-all ease-in-out duration-200 cursor-pointer active:scale-95"
           >
             <p className="flex w-full h-auto justify-center text-xs md:text-sm text-white font-semibold text-center sm:text-left">
               {dict?.slots?.cta_1}
             </p>
           </Link>
-          <Link
-            href={`/${usedLanguage}/restoration`}
-            className="flex flex-row w-auto min-w-[192px] h-auto justify-center items-center border-red-500/50 border-[0.5px] rounded-sm px-4 py-2 mt-2 gap-2 hover:bg-white/10 transition-all ease-in-out duration-200 cursor-pointer active:scale-95"
-          >
+          <div className="flex flex-row w-auto min-w-[192px] h-auto justify-center items-center border-red-500/50 border-[0.5px] rounded-sm px-4 py-2 mt-2 gap-2 hover:bg-white/10 transition-all ease-in-out duration-200 ">
             {dict?.slots?.cta_2?.map((cta: string, index: number) => (
               <p
                 key={index}
@@ -81,7 +78,7 @@ const ProjectsSection = ({
                 {cta}
               </p>
             ))}
-          </Link>
+          </div>
         </div>
         <div className="flex flex-col w-full h-auto mt-10 items-center gap-3">
           <p className="text-xs text-white font-normal uppercase text-center">
