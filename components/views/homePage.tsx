@@ -20,26 +20,26 @@ export default async function HomePage({
       <div className="snap-always snap-start h-[100dvh]">
         <HeroSection dict={dict} />
       </div>
-      <div className="snap-always snap-start h-full flex justify-center">
+      <div className="snap-always snap-start h-auto min-h-[100dvh] flex justify-center">
         <ServicesSection dict={dict} usedLanguage={lang} />
       </div>
-      <div className="snap-always snap-start h-full flex justify-center bg-black/5 ">
+      <div className="snap-always snap-start h-auto min-h-[100dvh] flex justify-center bg-black/5 ">
         <RestaurationSection
           dict={dict?.landing?.restoration}
           usedLanguage={lang}
         />
       </div>
-      <div className="snap-always snap-start h-full flex justify-center ">
+      <div className="snap-always snap-start h-auto min-h-[100dvh] flex justify-center ">
         <ProjectsSection dict={dict?.landing?.projects} usedLanguage={lang} />
       </div>
-      <div className="snap-always snap-start h-full flex justify-center bg-black/5">
+      <div className="snap-always snap-start h-auto min-h-[100dvh] flex justify-center bg-black/5">
         <ForSaleSection dict={dict?.landing?.forSale} usedLanguage={lang} />
       </div>
-      <div className="snap-always snap-start h-auto flex justify-center bg-gray-800"></div>
-      <div className="snap-always snap-start h-auto flex justify-center bg-gray-800">
+      <div className="snap-always snap-start h-auto min-h-[100dvh] flex justify-center bg-gray-800"></div>
+      <div className="snap-always snap-start h-auto min-h-[100dvh] flex justify-center bg-gray-800">
         {/* Rolling museum */}
       </div>
-      <div className="snap-always snap-start h-auto flex justify-center bg-gray-800">
+      <div className="snap-always snap-start h-auto min-h-[100dvh] flex justify-center bg-gray-800">
         {/* Contact us */}
       </div>
     </div>

@@ -12,7 +12,7 @@ const ForSaleSection = ({
   usedLanguage: string;
 }) => {
   return (
-    <section className="flex flex-col w-full max-w-[1280px] h-auto my-20 md:justify-center items-center overflow-scroll">
+    <section className="flex flex-col w-full max-w-[1280px] h-auto py-20 md:justify-center items-center overflow-scroll">
       <div className="flex flex-col w-full h-auto items-center">
         <div className="flex flex-col w-full h-auto px-4 items-center gap-4">
           <h2 className="flex w-full h-auto justify-center text-[24px] sm:text-[36px] text-red-500 text-shadow-black text-shadow-sm font-semibold items-center">

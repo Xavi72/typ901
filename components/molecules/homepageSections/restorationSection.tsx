@@ -11,7 +11,7 @@ const RestaurationSection = ({
   usedLanguage: string;
 }) => {
   return (
-    <section className="flex flex-col w-full max-w-[1280px] h-auto min-h-[100dvh] py-24 md:justify-center items-center overflow-scroll">
+    <section className="flex flex-col w-full max-w-[1280px] h-auto min-h-[100dvh] py-20 md:justify-center items-center overflow-scroll">
       <div className="flex flex-col w-full h-auto items-center">
         <div className="flex flex-col w-full h-auto px-4 items-center gap-4">
           <h2 className="flex w-full h-auto justify-center text-xs md:text-sm text-white/50 font-normal uppercase text-center">
