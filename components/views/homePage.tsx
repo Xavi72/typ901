@@ -44,6 +44,7 @@ export default async function HomePage({
       <div className="snap-always snap-start h-auto  flex justify-center bg-black/5">
         <ContactSection dict={dict?.contact_section} usedLanguage={lang} />
       </div>
+
       <Footer dict={dict?.footer} usedLanguage={lang} />
     </div>
   );

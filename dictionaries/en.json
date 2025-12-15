@@ -1,9 +1,84 @@
 {
-  "contact_section":{
+  "contact_section": {
     "title": "Contact us",
     "content": ["We are here to help you with any questions you may have."],
     "cta_1": "Begin a consultation",
     "cta_2": ["Call us at ", "+34 936 829 350"]
+  },
+  "footer": {
+    "title": "Footer",
+    "subscription": {
+      "stay_updated": "Stay updated!",
+      "subscribe": "Subscribe",
+      "consent": {
+        "acceptation": "I accept the",
+        "terms": "terms",
+        "and": "and",
+        "policies": "policies"
+      }
+    },
+    "menu": {
+      "menu_col_1": {
+        "title": "Services",
+        "content": [
+          {
+            "title": "Maintenance",
+            "link": "/services#maintenance",
+            "target": "_self"
+          },
+          {
+            "title": "Repairs",
+            "link": "/services#repairs",
+            "target": "_self"
+          },
+          {
+            "title": "Bodywork",
+            "link": "/services#bodywork",
+            "target": "_self"
+          },
+          {
+            "title": "Preservation",
+            "link": "/services#preservation",
+            "target": "_self"
+          },
+          {
+            "title": "Restoration",
+            "link": "/restoration",
+            "target": "_self"
+          }
+        ]
+      },
+      "menu_col_2": {
+        "title": "Typ901",
+        "content": [
+          {
+            "title": "About us",
+            "link": "/about-us",
+            "target": "_self"
+          },
+          {
+            "title": "Contact",
+            "link": "/contact#contact",
+            "target": "_self"
+          },
+          {
+            "title": "Cars for sale",
+            "link": "https://www.elferspot.com/en/dealer/typ901-classic-porsche-expert/",
+            "target": "_blank"
+          },
+          {
+            "title": "Rolling Museum",
+            "link": "https://therollingmuseum.com/",
+            "target": "_blank"
+          }
+        ]
+      }
+    },
+    "copyright": {
+      "title": "Copyright © 2025 Typ901 - All rights reserved",
+      "codekickers": "Made by Codekickers",
+      "codekickers_url": "https://codekickers.com"
+    }
   },
   "landing": {
     "hero": {
@@ -16,22 +91,22 @@
         {
           "title": "Scheduled maintenance",
           "description": "Factory-specification service intervals using original techniques and approved materials.",
-          "link": "/services/#maintenance"
+          "link": "/services#maintenance"
         },
         {
           "title": "Mechanical repairs",
           "description": "Expert diagnosis and repair of all mechanical systems with genuine or NOS parts.",
-          "link": "/services/#mechanical-repairs"
+          "link": "/services#mechanical-repairs"
         },
         {
           "title": "Bodywork & Paint",
           "description": "Expert diagnosis and repair of all bodywork systems with genuine or NOS parts.",
-          "link": "/services/#bodywork"
+          "link": "/services#bodywork"
         },
         {
           "title": "Preservation Services",
           "description": "Preventive care and storage solutions to protect your investment.",
-          "link": "/services/#preservation"
+          "link": "/services#preservation"
         }
       ]
     },
@@ -146,7 +221,8 @@
         ],
         "content": [
           "Join us for an unforgettable journey through Catalonia’s legendary mountain routes.",
-          "Take the wheel of 15 restored classic Porsches and enjoy three thrilling days of driving passion.","From the 356 to the 993, including a 911 2.4 S, 911 2.7 Carrera, and a 1978 928.",
+          "Take the wheel of 15 restored classic Porsches and enjoy three thrilling days of driving passion.",
+          "From the 356 to the 993, including a 911 2.4 S, 911 2.7 Carrera, and a 1978 928.",
           "This isn’t just a drive, it’s living Porsche history."
         ]
       },
@@ -170,8 +246,8 @@
           }
         ]
       },
-        "cta": "Reserve your seat now!",
-        "cta_link": "https://therollingmuseum.com/"
+      "cta": "Reserve your seat now!",
+      "cta_link": "https://therollingmuseum.com/"
     }
   }
 }
