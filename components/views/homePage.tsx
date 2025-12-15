@@ -4,6 +4,7 @@ import HeroSection from "@/components/molecules/homepageSections/heroSection";
 import RestaurationSection from "@/components/molecules/homepageSections/restorationSection";
 import ServicesSection from "@/components/molecules/homepageSections/servicesSection";
 import ProjectsSection from "@/components/molecules/homepageSections/projectsSection";
+import ForSaleSection from "@/components/molecules/homepageSections/forSaleSection";
 
 export default async function HomePage({
   params,
@@ -28,11 +29,11 @@ export default async function HomePage({
           usedLanguage={lang}
         />
       </div>
-      <div className="snap-always snap-start h-auto flex justify-center ">
+      <div className="snap-always snap-start h-full flex justify-center ">
         <ProjectsSection dict={dict?.landing?.projects} usedLanguage={lang} />
       </div>
       <div className="snap-always snap-start h-full flex justify-center bg-black/5">
-        {/* Cars for sale or to buy looking for special units */}
+        <ForSaleSection dict={dict?.landing?.forSale} usedLanguage={lang} />
       </div>
       <div className="snap-always snap-start h-auto flex justify-center bg-gray-800"></div>
       <div className="snap-always snap-start h-auto flex justify-center bg-gray-800">

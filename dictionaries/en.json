@@ -90,7 +90,7 @@
       },
       "projects": {
         "title": "Undergoing projects",
-        "subtitle": ["Some of them are special customers projects and the rest valuable cars found around the globe that we may sell or will join our private collection."],
+        "subtitle": ["We are constantly sourcing impressive, captivating and exclusive restoration projects around the globe that will join our private collection or for our customers."],
         "content": [
          
           {
@@ -113,6 +113,17 @@
         "cta_2": "Call us at +34 936 829 350",
         "slot_year": "2026 restoration slots",
         "remaining_slots": "slots remaining"
+      }
+    },
+    "forSale": {
+      "title": "Cars for sale",
+      "subtitle":"Find our last updated listing on",
+      "price_title":"price",
+      "cta":"Check our cars for sale on ElferSpot",
+      "sourcing": {
+        "content": ["We can sell your car on your behalf and source new projects."],
+        "cta_1": "Tell us more about your car",
+        "cta_2": ["Call us at ","+34 936 829 350"]
       }
     }
   }

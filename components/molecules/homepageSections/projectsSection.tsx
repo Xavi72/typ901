@@ -16,6 +16,23 @@ const ProjectsSection = ({
 
   return (
     <section className="flex flex-col w-full max-w-[1280px] h-auto my-20 px-4 md:px-8 md:justify-center items-center overflow-scroll">
+      <div className="flex flex-col w-full h-auto items-center gap-4">
+        <div className="flex flex-row md:flex-col w-auto h-auto gap-x-2">
+          <h3 className="flex w-full h-auto justify-center text-[24px] sm:text-[36px] text-red-500 text-shadow-black text-shadow-sm font-semibold items-center">
+            {dict?.projects?.title}
+          </h3>
+        </div>
+        <div className="flex flex-col w-full max-w-[540px] h-auto items-center gap-2">
+          {dict?.projects?.subtitle?.map((content: any, index: number) => (
+            <p
+              key={index}
+              className="flex w-full h-auto text-xs md:text-sm text-white font-normal text-pretty text-center"
+            >
+              {content}
+            </p>
+          ))}
+        </div>
+      </div>
       <div className="flex flex-col w-full h-auto">
         <ProjectSlider dict={dict?.projects} />
       </div>
