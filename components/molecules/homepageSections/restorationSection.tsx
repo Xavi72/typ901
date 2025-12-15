@@ -49,7 +49,7 @@ const RestaurationSection = ({
           <div className="flex w-full h-auto ">
             <Link
               href={`/${usedLanguage}/restoration`}
-              className="flex w-auto h-auto border-[0.5px] border-red-500/50 rounded-sm px-4 py-2 mt-2 gap-4 hover:bg-white/10 transition-all ease-in-out duration-200 cursor-pointer active:scale-95"
+              className="flex w-auto h-auto  bg-red-500/80 rounded-sm px-4 py-2 mt-2 gap-4 hover:bg-white/10 transition-all ease-in-out duration-200 cursor-pointer active:scale-95"
             >
               <p className="flex w-full h-auto text-xs md:text-sm text-white font-semibold">
                 {dict?.responsability?.cta}

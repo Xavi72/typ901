@@ -65,7 +65,7 @@ const RollingMuseumSection = ({ dict }: { dict: any }) => {
             <Link
               href={dict?.cta_link}
               target="_blank"
-              className="flex w-auto h-auto border-[0.5px] rounded-sm px-4 py-2 mt-2 gap-4 hover:bg-white/10 transition-all ease-in-out duration-200 bg-red-500 cursor-pointer active:scale-95"
+              className="flex w-auto h-auto  rounded-sm px-4 py-2 mt-2 gap-4 hover:bg-white/10 transition-all ease-in-out duration-200 bg-red-500/80 cursor-pointer active:scale-95"
             >
               <p className="flex w-full h-auto text-xs md:text-sm text-white font-semibold">
                 {dict?.cta}
