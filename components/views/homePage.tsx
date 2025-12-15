@@ -40,7 +40,7 @@ export default async function HomePage({
       <div className="snap-always snap-start h-auto min-h-[100dvh] flex justify-center">
         <RollingMuseumSection dict={dict?.landing?.rollingMuseum} />
       </div>
-      <div className="snap-always snap-start h-auto flex justify-center bg-black/5">
+      <div className="snap-always snap-start h-auto  flex justify-center bg-black/5">
         <ContactSection dict={dict?.contact_section} usedLanguage={lang} />
       </div>
     </div>
