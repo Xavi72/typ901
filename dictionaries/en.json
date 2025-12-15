@@ -1,4 +1,10 @@
 {
+  "contact_section":{
+    "title": "Contact us",
+    "content": ["We are here to help you with any questions you may have."],
+    "cta_1": "Begin a consultation",
+    "cta_2": ["Call us at ", "+34 936 829 350"]
+  },
   "landing": {
     "hero": {
       "title": ["Classic Porsches never die,", "they are reborn..."]

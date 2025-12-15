@@ -6,6 +6,7 @@ import ServicesSection from "@/components/molecules/homepageSections/servicesSec
 import ProjectsSection from "@/components/molecules/homepageSections/projectsSection";
 import ForSaleSection from "@/components/molecules/homepageSections/forSaleSection";
 import RollingMuseumSection from "../molecules/homepageSections/rollingMuseumSection";
+import ContactSection from "../molecules/contactSection/contactSection";
 
 export default async function HomePage({
   params,
@@ -36,14 +37,11 @@ export default async function HomePage({
       <div className="snap-always snap-start h-auto min-h-[100dvh] flex justify-center bg-black/5">
         <ForSaleSection dict={dict?.landing?.forSale} usedLanguage={lang} />
       </div>
-      <div className="snap-always snap-start h-auto min-h-[100dvh] flex justify-center bg-gray-800">
-        <RollingMuseumSection
-          dict={dict?.landing?.rollingMuseum}
-          usedLanguage={lang}
-        />
+      <div className="snap-always snap-start h-auto min-h-[100dvh] flex justify-center">
+        <RollingMuseumSection dict={dict?.landing?.rollingMuseum} />
       </div>
-      <div className="snap-always snap-start h-auto min-h-[100dvh] flex justify-center bg-gray-800">
-        {/* Contact us */}
+      <div className="snap-always snap-start h-auto flex justify-center bg-black/5">
+        <ContactSection dict={dict?.contact_section} usedLanguage={lang} />
       </div>
     </div>
   );
