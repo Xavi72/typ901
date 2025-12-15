@@ -1,0 +1,68 @@
+{
+  "carsList": [
+    {
+      "model": "911 SC 3.0 Targa",
+      "year": "1981",
+      "mileage": "269.500",
+      "price": "64.911",
+      "image_url": "/assets/images/cars/911-sc-targa-1981.webp",
+      "elferSpot_url": "https://www.elferspot.com/en/car/porsche-911-sc-1981-5045381/"
+    },
+    {
+      "model": "997 GT2",
+      "year": "2009",
+      "mileage": "33.800",
+      "price": "114.911",
+      "image_url": "/assets/images/cars/997-gt2-2009.webp",
+      "elferSpot_url": "https://www.elferspot.com/en/car/porsche-997-gt2-2009-4945819/"
+    },
+    {
+      "model": "911 Carrera 3.2 Targa",
+      "year": "1988",
+      "mileage": "161.800",
+      "price": "79.911",
+      "image_url": "/assets/images/cars/911-3-2-targa-1988.webp",
+      "elferSpot_url": "https://www.elferspot.com/en/car/porsche-911-carrera-3-2-1988-5075675/"
+    },
+    {
+      "model": "911 Carrera 3.2 Cabriolet",
+      "year": "1981",
+      "mileage": "243.600",
+      "price": "64.911",
+      "image_url": "/assets/images/cars/911-carrera-cab-1986.webp",
+      "elferSpot_url": "https://www.elferspot.com/en/car/porsche-911-carrera-3-2-1986-5075237/"
+    },
+    {
+      "model": "Boxter 986 S",
+      "year": "2002",
+      "mileage": "52.500",
+      "price": "39.986",
+      "image_url": "/assets/images/cars/boxter-s-2002.webp",
+      "elferSpot_url": "https://www.elferspot.com/en/car/porsche-boxster-s-2002-4647856/"
+    },
+    {
+      "model": "911 E",
+      "year": "1971",
+      "mileage": "3.458",
+      "price": "64.911",
+      "image_url": "/assets/images/cars/911-e-1971.webp",
+      "elferSpot_url": "https://www.elferspot.com/en/car/porsche-911-e-1971-5054383/"
+    },
+    {
+      "model": "991 GT3 Cup",
+      "year": "2017",
+      "mileage": "13.246",
+      "price": "134.911",
+      "image_url": "/assets/images/cars/997-gt3-cup.webp",
+      "elferSpot_url": "https://www.elferspot.com/en/car/porsche-991-gt3-cup-2017-4094565/"
+    },
+    {
+      "model": "993 Carrera Cabriolet",
+      "year": "1995",
+      "mileage": "128.578",
+      "price": "RESERVED",
+      "image_url": "/assets/images/cars/993-cab-1995.webp",
+      "elferSpot_url": "https://www.elferspot.com/en/car/porsche-993-carrera-1995-5054176/"
+    }
+  ]
+}
