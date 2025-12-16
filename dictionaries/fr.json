@@ -77,15 +77,36 @@
       "codekickers_url": "https://codekickers.com"
     }
   },
+  "cookies": {
+    "banner_title": "Cookies",
+    "banner_text": "Nous utilisons des cookies pour garantir la meilleure expérience sur notre site. Configurez vos préférences pour poursuivre votre navigation avec toutes ses fonctionnalités.",
+    "accept_button": "Accepter",
+    "accept_all_button": "Tout accepter",
+    "reject_button": "Tout refuser",
+    "setting_button": "Préférences",
+    "cookie_setting_text": "Choisissez les cookies que vous voulez accepter:",
+    "cookie1": "Google analytics",
+    "cookie1_text": "Google Analytics est un service d'analyse web fourni par Google qui utilise des cookies pour collecter des informations sur l'utilisation de notre site web.",
+    "cookie2": "Cookies personnalisés",
+    "cookie2_text": "Ces cookies sont utilisés pour suivre vos interactions sur notre site, nous aidant à comprendre ce qui est pertinent pour vous. Ils nous permettent aussi d'améliorer notre contenu.",
+    "cookie3": "Cookies essentiels",
+    "cookie3_text": "Ces cookies sont essentiels pour l'opération de notre site. Il permettent l'exécution de fontions comme le login sécurisé. Sans ces cookies notre site ne pourra pas opérer comlètement dans la section pour utilisateurs enregistrés."
+  },
+
   "contact_section": {
     "title": "Nous contacter",
-    "content": ["Nous sommes à votre disposition pour répondre à vos questions."],
+    "content": [
+      "Nous sommes à votre disposition pour répondre à vos questions."
+    ],
     "cta_1": "Nous consulter",
     "cta_2": ["Appelez nous au ", "+34 936 829 350"]
   },
   "landing": {
     "hero": {
-      "title": ["Les Porsches classiques ne meurent jamais,", "nous les ressuscitons..."]
+      "title": [
+        "Les Porsches classiques ne meurent jamais,",
+        "nous les ressuscitons..."
+      ]
     },
     "services": {
       "title": ["Porsche", "classics", "specialist"],
@@ -165,8 +186,8 @@
         "content": [
           "Notre engagement d'authenticité signifie que nous acceptons seulement un nombre limité de projets chaque année. Pour 2026, nous avons réservé six créneaux pour les restaurations complettes."
         ],
-       "cta_1": "Nous consulter",
-    "cta_2": ["Appelez nous au ", "+34 936 829 350"],
+        "cta_1": "Nous consulter",
+        "cta_2": ["Appelez nous au ", "+34 936 829 350"],
         "slot_year": "Créneaux 2026",
         "remaining_slots": "restants"
       },
@@ -192,8 +213,8 @@
             "image_url": "/assets/images/bb-356-sc.webp"
           }
         ],
-       "cta_1": "Nous consulter",
-    "cta_2": "Appelez nous au +34 936 829 350",
+        "cta_1": "Nous consulter",
+        "cta_2": "Appelez nous au +34 936 829 350",
         "slot_year": "2026 restoration slots",
         "remaining_slots": "slots remaining"
       }
@@ -208,7 +229,7 @@
           "Vous souhaitez à vendre votre véhicule et acheter un modèle spécial? Contactez-nous, nous pouvons vous aider à trouver la Porsche que vous cherchez."
         ],
         "cta_1": "Nous consulter",
-    "cta_2": ["Appelez nous au ", "+34 936 829 350"]
+        "cta_2": ["Appelez nous au ", "+34 936 829 350"]
       }
     },
     "rollingMuseum": {
@@ -223,7 +244,7 @@
         ],
         "content": [
           "Rejoignez-nous pour une expérience inoubliable à travers les routes de montagne légendaires de Catalogne",
-         "Prenez le volant de 15 Porsches classiques restaurées et profites de trois jours emmotionants de conduite pure", 
+          "Prenez le volant de 15 Porsches classiques restaurées et profites de trois jours emmotionants de conduite pure",
           "Depuis la 356 jusqu'à la 993, en incluant une 911 2.4 S, une 911 2.7 Carrera ou encore une 928 de 1978.",
           "Plus qu'un roadtrip, vivez l'histoire vivante de Porsche."
         ]

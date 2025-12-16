@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
 import "@/styles/globals.css";
+import Cookies from "@/components/molecules/cookiesBanner/cookies";
 import Header from "@/components/molecules/header/header";
 
 const dmSans = DM_Sans({
@@ -25,6 +26,7 @@ export default function RootLayout({
       <body className={`${dmSans.className} antialiased scroll-smooth `}>
         <Header params={params} />
         {children}
+        <Cookies params={params} />
       </body>
     </html>
   );

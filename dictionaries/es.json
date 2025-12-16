@@ -77,6 +77,21 @@
       "codekickers_url": "https://codekickers.com"
     }
   },
+  "cookies": {
+    "banner_title": "Cookies",
+    "banner_text": "Utilizamos cookies para garantizar que obtenga la mejor experiencia en nuestro sitio web. Configura tus preferencias para seguir navegando con todas las funcionalidades.",
+    "accept_button": "Aceptar",
+    "accept_all_button": "Aceptar todo",
+    "reject_button": "Rechazar todo",
+    "setting_button": "Preferencias",
+    "cookie_setting_text": "Elige las cookies que quieres aceptar:",
+    "cookie1": "Google Analytics",
+    "cookie1_text": "Google Analytics es un servicio de análisis web proporcionado por Google que utiliza cookies para recopilar información sobre el uso de nuestro sitio web.",
+    "cookie2": "Cookies personalizadas",
+    "cookie2_text": "Estas cookies se utilizan para seguir sus interacciones en nuestro sitio, ayudándonos a entender qué es relevante para ti. También nos permiten mejorar nuestro contenido.",
+    "cookie3": "Cookies esenciales",
+    "cookie3_text": "Estas cookies son esenciales para el funcionamiento de nuestro sitio. Permiten la ejecución de funciones como el inicio de sesión seguro. Sin estas cookies, nuestro sitio no podrá operar completamente en las seccióones para usuarios registrados."
+  },
   "contact_section": {
     "title": "Contáctanos",
     "content": [
