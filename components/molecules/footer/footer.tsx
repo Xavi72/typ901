@@ -10,9 +10,11 @@ import Whatsapp from "@/public/assets/icons/whatsapp.svg";
 
 export default async function Footer({
   dict,
+  menu,
   usedLanguage,
 }: {
   dict: any;
+  menu: any;
   usedLanguage: string;
 }) {
   return (
@@ -36,10 +38,10 @@ export default async function Footer({
         <div className="flex flex-row w-full md:w-auto h-auto gap-8 md:gap-16 justify-around">
           <div className="flex flex-col w-auto h-auto gap-2 items-center sm:items-start">
             <p className="text-xs sm:text-sm text-white/50">
-              {dict?.menu?.menu_col_1?.title}
+              {menu?.menu_col_1?.title}
             </p>
             <ul className="flex flex-col w-auto h-auto gap-2">
-              {dict?.menu?.menu_col_1?.content?.map((item: any, index: any) => (
+              {menu?.menu_col_1?.content?.map((item: any, index: any) => (
                 <li key={index} className="flex flex-col w-auto h-auto gap-2">
                   <Link
                     href={item.link}
@@ -54,10 +56,10 @@ export default async function Footer({
           </div>
           <div className="flex flex-col w-auto h-auto gap-2 items-center sm:items-start">
             <p className="text-xs sm:text-sm text-white/50">
-              {dict?.menu?.menu_col_2?.title}
+              {menu?.menu_col_2?.title}
             </p>
             <ul className="flex flex-col w-auto h-auto gap-2">
-              {dict?.menu?.menu_col_2?.content?.map((item: any, index: any) => (
+              {menu?.menu_col_2?.content?.map((item: any, index: any) => (
                 <li key={index} className="flex flex-col w-auto h-auto gap-2">
                   <Link
                     href={item.link}

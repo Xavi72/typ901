@@ -45,7 +45,7 @@ export default async function HomePage({
         <ContactSection dict={dict?.contact_section} usedLanguage={lang} />
       </div>
 
-      <Footer dict={dict?.footer} usedLanguage={lang} />
+      <Footer dict={dict?.footer} menu={dict?.menu} usedLanguage={lang} />
     </div>
   );
 }
