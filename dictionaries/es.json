@@ -1,16 +1,258 @@
 {
+  "title": ["Porsche", "classics", "specialist"],
+  "menu": {
+    "menu_col_1": {
+      "title": "Servicios",
+      "content": [
+        {
+          "title": "Maintenimiento",
+          "link": "/services#maintenance",
+          "target": "_self"
+        },
+        {
+          "title": "Reparaciones",
+          "link": "/services#repairs",
+          "target": "_self"
+        },
+        {
+          "title": "Carocería",
+          "link": "/services#bodywork",
+          "target": "_self"
+        },
+        {
+          "title": "Preservación",
+          "link": "/services#preservation",
+          "target": "_self"
+        },
+        {
+          "title": "Restauración",
+          "link": "/restoration",
+          "target": "_self"
+        }
+      ]
+    },
+    "menu_col_2": {
+      "title": "Typ901",
+      "content": [
+        {
+          "title": "Nosotros",
+          "link": "/about-us",
+          "target": "_self"
+        },
+        {
+          "title": "Contacto",
+          "link": "/contact#contact",
+          "target": "_self"
+        },
+        {
+          "title": "En venta",
+          "link": "https://www.elferspot.com/en/dealer/typ901-classic-porsche-expert/",
+          "target": "_blank"
+        },
+        {
+          "title": "Rolling Museum",
+          "link": "https://therollingmuseum.com/",
+          "target": "_blank"
+        }
+      ]
+    }
+  },
+
+  "footer": {
+    "title": "Footer",
+    "subscription": {
+      "stay_updated": "Stay updated!",
+      "subscribe": "Suscribirse",
+      "consent": {
+        "acceptation": "Acepto los",
+        "terms": "terminos",
+        "and": "y",
+        "policies": "políticas"
+      }
+    },
+
+    "copyright": {
+      "title": "Copyright © 2025 Typ901 - All rights reserved",
+      "codekickers": "Made by Codekickers",
+      "codekickers_url": "https://codekickers.com"
+    }
+  },
+  "contact_section": {
+    "title": "Contáctanos",
+    "content": [
+      "Estamos aquí para ayudarte con cualquier pregunta que puedas tener."
+    ],
+    "cta_1": "¡Consúltanos!",
+    "cta_2": ["Llámanos al ", "+34 936 829 350"]
+  },
   "landing": {
     "hero": {
-      "title": ["Los Porsches classicos no mueren nunca,","renacen..."]
+      "title": ["Los Porsches clásicos nunca mueren,", "los resucitamos..."]
     },
-    "intro": {
-      "quote": "Los classicos no mueren nunca, renacen...",
+    "services": {
+      "title": ["Porsche", "classics", "specialist"],
+      "subtitle": ["Profesionales apasionados,", "no solo proveedores"],
       "content": [
-      "Como testigos de la historia de la marca y con la profunda conciencia de nuestra responsabilidad sobre su legado y herencia, proporcionamos nuestra expertise para preservar y restaurar algunos de los modelos más icónicos.","En Typ901, solo nos encargamos de unas pocas unidades cada año.",
-      "Algunas de ellas son proyectos especiales solicitados por nuestros clientes, el resto son modelos valiosos encontrados por todo el mundo que pondremos o no a la venta una vez completados."
-    ],
-    "cta": "Ver nuestros proyectos actuales"
+        {
+          "title": "Mantenimiento programado",
+          "description": "Servicios de mantenimiento programado según normativa del constructor usando técnicas y materiales aprobados.",
+          "link": "/services#maintenance"
+        },
+        {
+          "title": "Reparaciones mecánicas",
+          "description": "Diagnósticos por espertos y reparaciones de los sistemas mecánicos con recambios OEM, NOS y genuinos.",
+          "link": "/services#mechanical-repairs"
+        },
+        {
+          "title": "Carocería y pintura",
+          "description": "Trabajos de carocería y de pintura ejecutados por expertos calificados con procediminetos rigurosos y adaptados al vehículo.",
+          "link": "/services#bodywork"
+        },
+        {
+          "title": "Servicios de preservación",
+          "description": "Cuidados preventivos y soluciones de almacenamiento para la protección y el mantenimiento de la operabilidad del vehículo. ",
+          "link": "/services#preservation"
+        }
+      ]
+    },
+    "restoration": {
+      "sectionTitle": "Un viaje a través del tiempo",
+      "title": "Preservando la herencia de Porsche",
+      "subtitle": "Como testigos de la historia de la marca, nos hemos comprometido a preservar y restaurar algunos de los modelos más icónicos.",
+      "responsability": {
+        "title": ["Nuestra responsabilidad", "con la autenticidad"],
+        "content": [
+          "Sabemos que cuando confías en nosotros para la restauración de tu Porsche, estás compartiendo una pieza de la historia automóvil.",
+          "Nuestro compromiso va más allá de la reparación. Queremos preservar el alma de cada vehículo manteniendo sus especificaciones originales usando las mismas tecnicas que se usarón para su construcción."
+        ],
+        "cta": "Saber más"
+      },
+      "restoration": {
+        "title": ["Nuestra filosofía", "de restauración"],
+        "content": ["El viaje hacia la autenticidad"],
+        "methodology": {
+          "title": "Nuestra filosofía de restauración",
+          "subtitle": [
+            "Cada proceso es único y depende del estado y de las caracteristcias del vehículo.",
+            "No importa el modelo, siempre comenzamos desde el mismo punto de salida para entregar el mejor resultado."
+          ],
+          "content": [
+            {
+              "title": "Evaluación",
+              "description": "Documentación completa y evaluación de la condición inicial"
+            },
+            {
+              "title": "Desmontaje",
+              "description": "Registro cuidadoso y fotográfico de cada componente y elemento"
+            },
+            {
+              "title": "Restauración",
+              "description": "Restauración de cada elemento usando técnicas originales y de fábrica"
+            },
+            {
+              "title": "Reconstrucción",
+              "description": "Reensamblaje meticuloso con piezas restauradas o recambios originales"
+            },
+            {
+              "title": "Control de calidad",
+              "description": "Inspección final y pruebas para asegurar la autenticidad antes de la entrega"
+            }
+          ]
+        }
+      }
+    },
+    "projects": {
+      "slots": {
+        "title": "¡Reserva un espacio ahora!",
+        "badge": "Disponibilidad limitada para 2026",
+        "content": [
+          "Nuestro compromiso con la autenticidad significa que aceptamos solo un número limitado de proyectos cada año. Para 2026, tenemos seis espacios disponibles para restauraciones completas."
+        ],
+        "cta_1": "¡Consúltanos!",
+        "cta_2": ["Llámanos al ", "+34 936 829 350"],
+        "slot_year": "Restauraciones en 2026",
+        "remaining_slots": "espacios disponibles"
+      },
+      "projects": {
+        "title": "Proyectos en nuestro taller",
+        "subtitle": [
+          "Estamos constantemente buscando nuevos proyectos impresionantes, cautivantes y exclusivos  en todo el mundo que se unirán a nuestra colección privada o para nuestros clientes."
+        ],
+        "content": [
+          {
+            "title": "1965 911 ",
+            "description": "Vehículo con provenencia directa de The Junkyard: The Rudi Klein Collection Auction del pasado més de noviembre 2024",
+            "image_url": "/assets/images/rk-1965.webp"
+          },
+          {
+            "title": "1974 911 2,7 Carrera",
+            "description": "Un verdadero unicorniocon su original color Magenta (Karminrot), una de las escasas unidades producidas con especificaciones tan cautivantes.",
+            "image_url": "/assets/images/2-7-carrera-1975.webp"
+          },
+          {
+            "title": "1964 356 SC",
+            "description": "Un hermoso 356 SC con su original color Bali Blue resucitado, casi listo para volver a rodar.",
+            "image_url": "/assets/images/bb-356-sc.webp"
+          }
+        ],
+        "cta_1": "¡Consúltanos!",
+        "cta_2": "Llámanos al +34 936 829 350",
+        "slot_year": "2026 restoration slots",
+        "remaining_slots": "slots remaining"
+      }
+    },
+    "forSale": {
+      "title": "Vehículos en venta",
+      "subtitle": "Encuentra nuestro listado actualizado en",
+      "price_title": "price",
+      "cta": "Ver nuestros modelos en venta en ElferSpot",
+      "sourcing": {
+        "content": [
+          "¿Quieres vender tu vehículo y comprar un modelo especial? Contáctanos! Podemos ayudarte a encontrar el Porsche que buscas."
+        ],
+        "cta_1": "Háblanos de tu vehículo",
+        "cta_2": ["Llámanos al ", "+34 936 829 350"]
+      }
+    },
+    "rollingMuseum": {
+      "sectionTitle": "Un viaje por Cataluña",
+      "title": "The Rolling Museum",
+      "content": [
+        "Descubre la historia de la marca a través de roadtrips excepcionales, conduciendo modelos icónicos denuestra colección privada."
+      ],
+      "experience": {
+        "title": [
+          "15 Porsches clásicos y carreteras icónicas durante 3 dáis de pura conducción."
+        ],
+        "content": [
+          "Únete a nosotros para un viaje inolvidable a través de las legendarias carreteras de montaña de Cataluña.",
+          "TOma el volante de 15 Porsches clásicos restaurados y disfruta de tres días emocionantes de pura conducción.",
+          "Desde el 356 hasta el 993, incluyendo a un 911 2.4 S, un 911 2.7 Carrera y un 928 de 1978.",
+          "No es solo un mero paseo, es vivir la historia viva de Porsche."
+        ]
+      },
+      "calendar": {
+        "title": "Próximos road trips",
+        "content": [
+          {
+            "name": "Sitges - Costa Brava",
+            "date": "14 - 16 de enero 2026",
+            "trip_url": "https://therollingmuseum.com/costa-brava-road-trip-january-2026/"
+          },
+          {
+            "name": "Autódrom Terramar - Priorat",
+            "date": "22 - 24 de abril 2026",
+            "trip_url": "https://therollingmuseum.com/piorat-road-trip-april-2026/"
+          },
+          {
+            "name": "Autódrom Terramar - Priorat",
+            "date": "27 - 29 de mayo 2026",
+            "trip_url": "https://therollingmuseum.com/priorat-road-trip-may-2026/"
+          }
+        ]
+      },
+      "cta": "¡Reserva tu sillón ahora!",
+      "cta_link": "https://therollingmuseum.com/"
     }
-    
   }
 }

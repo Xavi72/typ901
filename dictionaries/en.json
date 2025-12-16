@@ -98,17 +98,17 @@
         },
         {
           "title": "Mechanical repairs",
-          "description": "Expert diagnosis and repair of all mechanical systems with genuine or NOS parts.",
+          "description": "Expert diagnosis and repair of all mechanical systems with genuine, NOS and OEM parts.",
           "link": "/services#mechanical-repairs"
         },
         {
           "title": "Bodywork & Paint",
-          "description": "Expert diagnosis and repair of all bodywork systems with genuine or NOS parts.",
+          "description": "Qualified bodywork and paintshop experts with accurate and car-specific adaptive techniques.",
           "link": "/services#bodywork"
         },
         {
           "title": "Preservation Services",
-          "description": "Preventive care and storage solutions to protect your investment.",
+          "description": "Preventive care and storage solutions to protect your vehicle and maintain its functions.",
           "link": "/services#preservation"
         }
       ]
@@ -149,7 +149,7 @@
             },
             {
               "title": "Rebuilding",
-              "description": "Meticulous reassembly with verified authentic parts"
+              "description": "Meticulous reassembly with restored or verified authentic parts"
             },
             {
               "title": "Quality Control",
@@ -184,12 +184,12 @@
           },
           {
             "title": "1974 911 2,7 Carrera",
-            "description": "A true unicorn in original Magenta (Karminrot) — one of the rarest and most eye-catching specs ever delivered.",
+            "description": "A true unicorn in original Magenta (Karminrot), one of the rarest and most eye-catching specs ever delivered.",
             "image_url": "/assets/images/2-7-carrera-1975.webp"
           },
           {
             "title": "1964 356 SC",
-            "description": "A Bali Blue beauty, almost ready to go back to his owner.",
+            "description": "An restored original Bali Blue beauty, almost ready to go back on the road.",
             "image_url": "/assets/images/bb-356-sc.webp"
           }
         ],
@@ -216,7 +216,7 @@
       "sectionTitle": "A Journey Through Catalonia",
       "title": "The Rolling Museum",
       "content": [
-        "Discover the history of the brand through exceptional trips, driving our private collection of iconic models."
+        "Discover the history of the brand through exceptional road trips, driving iconic models from our private collection."
       ],
       "experience": {
         "title": [
@@ -234,17 +234,17 @@
         "content": [
           {
             "name": "Sitges to Costa Brava",
-            "date": "14th - 16th of January 2025",
+            "date": "14th - 16th of January 2026",
             "trip_url": "https://therollingmuseum.com/costa-brava-road-trip-january-2026/"
           },
           {
             "name": "Autódrom Terramar to Priorat",
-            "date": "22th - 24th of April 2025",
+            "date": "22th - 24th of April 2026",
             "trip_url": "https://therollingmuseum.com/piorat-road-trip-april-2026/"
           },
           {
             "name": "Autódrom Terramar to Priorat",
-            "date": "27th - 29th of May 2025",
+            "date": "27th - 29th of May 2026",
             "trip_url": "https://therollingmuseum.com/priorat-road-trip-may-2026/"
           }
         ]
