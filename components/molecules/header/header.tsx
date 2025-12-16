@@ -1,7 +1,6 @@
 import { getDictionary } from "@/app/[lang]/dictionaries";
 import HeaderMenu from "./headerMenu";
 
-/* eslint-disable @next/next/no-img-element */
 export default async function Header({ params }: { params: { lang: string } }) {
   const { lang } = await params;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
