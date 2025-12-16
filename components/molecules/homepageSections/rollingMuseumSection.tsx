@@ -77,7 +77,7 @@ const RollingMuseumSection = ({ dict }: { dict: any }) => {
           {dict?.calendar?.content?.map((content: any, index: number) => (
             <div
               key={index}
-              className="flex flex-col w-auto h-auto gap-4 border-[0.5px] border-red-500/40 rounded-sm px-4 py-2"
+              className="flex flex-col w-auto h-auto gap-4 border-[0.5px] border-red-500/40 rounded-sm px-4 py-2 bg-black/5 overflow-hidden"
             >
               <p className="text-sm md:text-base text-white font-medium text-pretty text-left">
                 {content?.name}
