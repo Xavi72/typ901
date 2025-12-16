@@ -100,17 +100,17 @@
         },
         {
           "title": "Reparaciones mecánicas",
-          "description": "Diagnósticos por espertos y reparaciones de los sistemas mecánicos con recambios OEM, NOS y genuinos.",
+          "description": "Diagnósticos y reparaciones de los sistemas mecánicos por nuestros expertos y con recambios OEM, NOS y genuinos.",
           "link": "/services#mechanical-repairs"
         },
         {
           "title": "Carocería y pintura",
-          "description": "Trabajos de carocería y de pintura ejecutados por expertos calificados con procediminetos rigurosos y adaptados al vehículo.",
+          "description": "Trabajos de carocería y de pintura ejecutados con procedimientos rigurosos y adaptados al vehículo.",
           "link": "/services#bodywork"
         },
         {
           "title": "Servicios de preservación",
-          "description": "Cuidados preventivos y soluciones de almacenamiento para la protección y el mantenimiento de la operabilidad del vehículo. ",
+          "description": "Intervenciones preventivas y soluciones de almacenamiento para la protección y el mantenimiento de la operabilidad del vehículo. ",
           "link": "/services#preservation"
         }
       ]
@@ -118,7 +118,7 @@
     "restoration": {
       "sectionTitle": "Un viaje a través del tiempo",
       "title": "Preservando la herencia de Porsche",
-      "subtitle": "Como testigos de la historia de la marca, nos hemos comprometido a preservar y restaurar algunos de los modelos más icónicos.",
+      "subtitle": "Como testigos de la historia de la marca, nos hemos comprometido a preservar su patrimonio restaurando algunos de sus modelos más icónicos.",
       "responsability": {
         "title": ["Nuestra responsabilidad", "con la autenticidad"],
         "content": [
@@ -155,7 +155,7 @@
             },
             {
               "title": "Control de calidad",
-              "description": "Inspección final y pruebas para asegurar la autenticidad antes de la entrega"
+              "description": "Inspección final y pruebas para asegurar la operabilidad antes de la entrega"
             }
           ]
         }
@@ -222,7 +222,7 @@
       ],
       "experience": {
         "title": [
-          "15 Porsches clásicos y carreteras icónicas durante 3 dáis de pura conducción."
+          "15 Porsches clásicos y carreteras legendarias durante 3 días de conducción pura."
         ],
         "content": [
           "Únete a nosotros para un viaje inolvidable a través de las legendarias carreteras de montaña de Cataluña.",
