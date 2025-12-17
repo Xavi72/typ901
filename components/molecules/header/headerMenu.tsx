@@ -28,7 +28,7 @@ const HeaderMenu = ({ dict, lang }: { dict: any; lang: string }) => {
       setMenuIsOpen(false);
     } else {
       setMenuIsOpen(!menuIsOpen);
-      setTimeout(() => setShowMenu(!showMenu), 800);
+      setTimeout(() => setShowMenu(!showMenu), 400);
     }
   };
 
@@ -73,9 +73,9 @@ const HeaderMenu = ({ dict, lang }: { dict: any; lang: string }) => {
         className={`
             absolute top-0 right-0 
             flex flex-col w-full
-            ${menuIsOpen ? "h-96" : "h-0"}
+            ${menuIsOpen ? "h-[100dvh] sm:h-96" : "h-0"}
             bg-gray-800 border-b-[0.5px] border-red-500/20
-            transition-[height] duration-1000 ease-in-out
+            transition-[height] duration-600 ease-in-out
             z-20`}
       >
         {showMenu && (
@@ -101,7 +101,7 @@ const HeaderMenu = ({ dict, lang }: { dict: any; lang: string }) => {
             </div>
             <div className="flex flex-col md:flex-row w-full h-auto px-[5%] mt-8 justify-end">
               <div className="flex flex-col w-full md:w-auto h-auto ">
-                <div className="flex flex-row w-full md:w-auto h-auto gap-8 md:gap-32 justify-around ">
+                <div className="flex flex-col sm:flex-row w-full md:w-auto h-auto gap-8 md:gap-32 justify-around ">
                   <div className="flex flex-col w-auto h-auto gap-2 items-center ">
                     <p className="text-xs sm:text-sm text-white/50">
                       {dict?.menu?.menu_col_1?.title}
