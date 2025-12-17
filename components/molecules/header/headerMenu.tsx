@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-expressions */
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
@@ -83,6 +84,7 @@ const HeaderMenu = ({ dict, lang }: { dict: any; lang: string }) => {
               <Link
                 href={`/${lang}`}
                 className="flex w-20 md:w-32 shrink-0 h-auto cursor-pointer active:scale-95 transition-all ease-in-out duration-200"
+                onClick={() => handleShowMenu()}
               >
                 <img
                   src="/assets/images/logo-typ901.webp"
@@ -112,9 +114,10 @@ const HeaderMenu = ({ dict, lang }: { dict: any; lang: string }) => {
                             className="flex flex-col w-auto h-auto gap-2"
                           >
                             <Link
-                              href={item.link}
+                              href={`/${lang}/${item.link}`}
                               target={item.target}
                               className="text-xs sm:text-sm text-center  text-white hover:text-white/50 cursor-pointer active:scale-95 transition-all ease-in-out duration-200"
+                              onClick={() => handleShowMenu()}
                             >
                               {item.title}
                             </Link>
@@ -135,9 +138,10 @@ const HeaderMenu = ({ dict, lang }: { dict: any; lang: string }) => {
                             className="flex flex-col w-auto h-auto gap-2"
                           >
                             <Link
-                              href={item.link}
+                              href={`/${lang}/${item.link}`}
                               target={item.target}
                               className="text-xs sm:text-sm text-center  text-white hover:text-white/50 cursor-pointer active:scale-95 transition-all ease-in-out duration-200"
+                              onClick={() => handleShowMenu()}
                             >
                               {item.title}
                             </Link>
@@ -149,6 +153,7 @@ const HeaderMenu = ({ dict, lang }: { dict: any; lang: string }) => {
                       <Link
                         href="https://www.instagram.com/typ901_classic_porsche_expert/"
                         target="_blank"
+                        onClick={() => handleShowMenu()}
                       >
                         <Instagram className="w-5 h-5 text-white hover:text-white/50 cursor-pointer active:scale-95 transition-all ease-in-out duration-200" />
                       </Link>
@@ -158,12 +163,14 @@ const HeaderMenu = ({ dict, lang }: { dict: any; lang: string }) => {
                         className="flex flex-row w-full h-auto items-center justify-center cursor-pointer active:scale-95 transition-all ease-in-out duration-20"
                         rel="noopener noreferrer"
                         aria-label="whatsapp"
+                        onClick={() => handleShowMenu()}
                       >
                         <Whatsapp className="w-5 h-5 text-white hover:text-white/50" />
                       </Link>
                       <Link
-                        href="https://www.instagram.com/typ901_classic_porsche_expert/"
+                        href="https://www.facebook.com/typ901"
                         target="_blank"
+                        onClick={() => handleShowMenu()}
                       >
                         <Facebook className="w-5 h-5 text-white hover:text-white/50 cursor-pointer active:scale-95 transition-all ease-in-out duration-200" />
                       </Link>
@@ -174,15 +181,21 @@ const HeaderMenu = ({ dict, lang }: { dict: any; lang: string }) => {
                   <div className="flex flex-row w-auto h-auto mt-8 px-4 py-2 gap-4 bg-black/10 rounded-sm justify-center">
                     <EsFlag
                       className="w-5 h-5 cursor-pointer active:scale-95 transition-all ease-in-out duration-200"
-                      onClick={() => handleLanguageChange("es")}
+                      onClick={() => {
+                        handleLanguageChange("es"), handleShowMenu();
+                      }}
                     />
                     <EnFlag
                       className="w-5 h-5 cursor-pointer active:scale-95 transition-all ease-in-out duration-200"
-                      onClick={() => handleLanguageChange("en")}
+                      onClick={() => {
+                        handleLanguageChange("en"), handleShowMenu();
+                      }}
                     />
                     <FrFlag
                       className="w-5 h-5 cursor-pointer active:scale-95 transition-all ease-in-out duration-200"
-                      onClick={() => handleLanguageChange("fr")}
+                      onClick={() => {
+                        handleLanguageChange("fr"), handleShowMenu();
+                      }}
                     />
                   </div>
                 </div>

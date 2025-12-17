@@ -87,10 +87,7 @@ export default async function Footer({
               >
                 <Whatsapp className="w-5 h-5 text-white hover:text-white/50" />
               </Link>
-              <Link
-                href="https://www.instagram.com/typ901_classic_porsche_expert/"
-                target="_blank"
-              >
+              <Link href="https://www.facebook.com/typ901" target="_blank">
                 <Facebook className="w-5 h-5 text-white hover:text-white/50 cursor-pointer active:scale-95 transition-all ease-in-out duration-200" />
               </Link>
             </div>
