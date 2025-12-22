@@ -241,8 +241,7 @@
           "15 Porsches classiques et des routes légendaires pour 3 jours de conduite pure"
         ],
         "content": [
-          "Rejoignez-nous pour une expérience inoubliable à travers les routes de montagne légendaires de Catalogne",
-          "Prenez le volant de 15 Porsches classiques restaurées et profites de trois jours emmotionants de conduite pure",
+          "Prenez le volant de 15 Porsches classiques restaurées et profites de trois jours emmotionants de conduite pure sur les routes légendaires de Catalogne",
           "Depuis la 356 jusqu'à la 993, en incluant une 911 2.4 S, une 911 2.7 Carrera ou encore une 928 de 1978.",
           "Plus qu'un roadtrip, vivez l'histoire vivante de Porsche."
         ]
@@ -269,6 +268,67 @@
       },
       "cta": "Reservez votre siège!",
       "cta_link": "https://therollingmuseum.com/"
+    }
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "content": ["Nous sommes à votre disposition pour répondre à vos questions.", "Remplissez le formulaire ci-dessous et nous vous recontacterons le plus vite possible."],
+    "form": {
+     
+      "contact_type": "Pour quelle raison nous contactez-vous?",
+      "select_contact_type": "Selectionnez une option",
+    "contact_options": [
+        {
+          "slug": "maintenance",
+          "text": "J'ai besoin d'informations sur l'entretien de ma Porsche"
+        },
+        {
+          "slug": "repairing",
+          "text": "J'ai besoin d'informations sur la réparation de ma Porsche"
+        },
+        {
+          "slug": "restoration-project",
+          "text": "J'ai un nouveau projet de restauration en tête"
+        },
+        {
+          "slug": "buying",
+          "text": "Je voudrai acheter une Porsche"
+        },
+        {
+          "slug": "selling",
+          "text": "Je voudrai vendre ma Porsche"
+        },
+        {
+          "slug": "work-with-us",
+          "text": "Je voudrai travailler avec vous"
+        },
+        {
+          "slug": "other",
+          "text": "Autre, je laisse un message ci-dessous"
+        }
+      ],
+      "requiered_fields": "* Champs requis",
+      "error_contact_type": "Veuillez sélectionner une option.",
+      "firstname": "Votre prénom",
+      "error_firstname": "Veuillez entrer votre prénom.",
+      "lastname": "Votre nom de famille",
+      "error_lastname": "Veuillez entrer votre nom complet.",
+      "email": "Votre email",
+      "error_email": "Veuillez entrer une adresse email valide.",
+      "phone": "Votre téléphone",
+      "error_phone": "Veuillez entrer votre numéro de téléphone.",
+      "user_message": "Votre message",
+      "loading": "Patientez un instant s'il vous plaît...",
+      "button_text_close_error": "Fermer",
+      "button_text1": "Annuler",
+      "button_text2": "Envoyer le message",
+      "error_sending": "Une erreur est survenue lors de l'envoi de votre message. Veuillez réessayer plus tard.",
+      "success_message": "Votre message a été envoyé avec succès! Nous vous recontacterons le plus vite possible.",
+      "consent": {
+        "acceptation": "J'accepte les",
+        "policies": "politiques de confidentialité"
+      },
+      "error_consent": "Veuillez confirmer"
     }
   }
 }

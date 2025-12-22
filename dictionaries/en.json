@@ -35,24 +35,24 @@
       "title": "Typ901",
       "content": [
         {
-          "title": "About us",
-          "link": "/about-us",
-          "target": "_self"
-        },
-        {
-          "title": "Contact",
-          "link": "/contact#contact",
-          "target": "_self"
-        },
-        {
           "title": "Cars for sale",
           "link": "https://www.elferspot.com/en/dealer/typ901-classic-porsche-expert/",
           "target": "_blank"
         },
         {
+          "title": "About us",
+          "link": "/about-us",
+          "target": "_self"
+        },
+        {
           "title": "Rolling Museum",
           "link": "https://therollingmuseum.com/",
           "target": "_blank"
+        },
+        {
+          "title": "Contact",
+          "link": "/contact#contact",
+          "target": "_self"
         }
       ]
     }
@@ -237,8 +237,7 @@
           "15 Classic Porsches and legendary roads for 3 days of pure driving"
         ],
         "content": [
-          "Join us for an unforgettable journey through Catalonia’s legendary mountain routes.",
-          "Take the wheel of 15 restored classic Porsches and enjoy three thrilling days of driving passion.",
+          "Take the wheel of 15 restored classic Porsches and enjoy three thrilling days of driving passion in legendary roads of Catalonia.",
           "From the 356 to the 993, including a 911 2.4 S, 911 2.7 Carrera, and a 1978 928.",
           "This isn’t just a drive, it’s living Porsche history."
         ]
@@ -265,6 +264,69 @@
       },
       "cta": "Reserve your seat now!",
       "cta_link": "https://therollingmuseum.com/"
+    }
+  },
+  "contact": {
+    "title": "Contact us",
+    "content": [
+      "We are here to help you with any questions you may have.",
+      "Fill the form below and we'll get back to you as soon as possible."
+    ],
+    "form": {
+      "contact_type": "Why are you contacting us?",
+      "select_contact_type": "Select an option",
+      "contact_options": [
+        {
+          "slug": "maintenance",
+          "text": "I need more information about the maintenance of my Porsche"
+        },
+        {
+          "slug": "repairing",
+          "text": "I need more information about repairing my Porsche"
+        },
+        {
+          "slug": "restoration-project",
+          "text": "I have a new restoration project in mind"
+        },
+        {
+          "slug": "buying",
+          "text": "I want to buy a Porsche"
+        },
+        {
+          "slug": "selling",
+          "text": "I want to sell my Porsche"
+        },
+        {
+          "slug": "work-with-us",
+          "text": "I want to work with you"
+        },
+        {
+          "slug": "other",
+          "text": "Other, I'll let a message below"
+        }
+      ],
+      "requiered_fields": "* Required fields",
+      "error_contact_type": "Please select an option.",
+      "firstname": "Your firstname",
+      "error_firstname": "Please enter your firstname.",
+      "lastname": "Your lastname",
+      "error_lastname": "Please enter your lastname.",
+      "email": "Your email",
+      "error_email": "Please enter a valid email address.",
+      "phone": "Your phone",
+      "error_phone": "Please enter a phone number.",
+      "user_message": "Your message",
+      "loading": "Wait a moment please...",
+      "button_text_close_error": "Close",
+      "button_text1": "Cancel",
+      "button_text2": "Send message",
+      "error_sending": "An error occurred while sending your message. Please try again later.",
+      "success_message": "Your message has been sent successfully! We will get back to you as soon as possible.",
+      "consent": {
+        "acceptation": "I accept the",
+        "policies": "privacy policies"
+      },
+      "error_consent": "Please confirm"
     }
   }
 }
