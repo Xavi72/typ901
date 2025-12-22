@@ -95,11 +95,13 @@ export default async function Footer({
         </div>
       </div>
       <div className="flex flex-col w-full h-auto px-4 md:px-8 mt-8">
-        <div className="flex flex-col sm:flex-row w-full h-auto justify-end gap-1">
-          <p className="text-[10px] md:text-xs text-white/50">
+        <div className="flex flex-col sm:flex-row w-full h-auto justify-center sm:justify-end gap-1">
+          <p className="text-[10px] md:text-xs text-white/50 text-center">
             {dict?.copyright?.title}
           </p>
-
+          <p className="hidden sm:flex text-[10px] md:text-xs text-white/50 text-center">
+            -
+          </p>
           <Link
             href={dict?.copyright?.codekickers_url}
             target="_blank"
