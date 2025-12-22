@@ -1,5 +1,16 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
-const CustomCheckBox = ({ id, name, setInputValue, inputValue }) => {
+const CustomCheckBox = ({
+  id,
+  name,
+  setInputValue,
+  inputValue,
+}: {
+  id: string;
+  name: string;
+  setInputValue: any;
+  inputValue: any;
+}) => {
   const handleChange = () => {
     setInputValue(!inputValue);
   };
