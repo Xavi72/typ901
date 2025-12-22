@@ -26,13 +26,13 @@ const ContactForm = ({ dict }: { dict: any }) => {
   const handleReset = () => {};
 
   return (
-    <div className="flex flex-col w-full h-auto justify-start items-start gap-2 pb-24 relative">
+    <div className="flex flex-col w-full h-auto justify-start items-start gap-2  relative">
       <div
         className={`
         flex flex-col 
         w-full max-w-[900px] h-auto
-        p-4 sm:p-8 
-        border-[0.5px] border-gray-700/50
+        sm:p-8 
+        sm:border-[0.5px] sm:border-gray-700/50
         rounded-sm 
         `}
       >

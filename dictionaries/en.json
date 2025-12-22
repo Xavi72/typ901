@@ -327,6 +327,20 @@
         "policies": "privacy policies"
       },
       "error_consent": "Please confirm"
+    },
+    "visit": {
+      "title": "Visit us",
+      "content": [
+        "You can visit our facilities, see vehicles in preparation or deliver your Porsche directly to the workshop.",
+        "Call us to set up an appointment."
+      ],
+      "street": "Carrer dels Fonds, 22",
+      "city": "Sant Andreu de la Barca",
+      "province": "Barcelona",
+      "zip": "08740",
+      "phone": "+34 936 829 350",
+      "mobile": "+34 667 367 018"
+
     }
   }
 }

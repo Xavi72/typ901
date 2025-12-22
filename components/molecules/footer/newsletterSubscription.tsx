@@ -30,7 +30,7 @@ const NewsletterSubscription = ({ dict }: { dict: any }) => {
           type="text"
           placeholder="Email"
           aria-label="Email"
-          className="flex w-auto min-w-36 h-auto pl-2 py-1 bg-white text-black border rounded-md text-sm placeholder:text-sm focus:ring-0 focus:outline-none"
+          className="flex w-auto min-w-48 h-auto pl-2 py-1 bg-white text-black border rounded-md text-sm placeholder:text-sm focus:ring-0 focus:outline-none"
           value={emailValue}
           onChange={(e) => {
             setEmailValue(e.target.value);
