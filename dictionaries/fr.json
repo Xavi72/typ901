@@ -330,5 +330,42 @@
       },
       "error_consent": "Veuillez confirmer"
     }
+  },
+   "about_us": {
+    "title": "Notre histoire",
+    "content": [
+      "Depuis 2014, Typ901 restaure les Porsches et leur permet de retrouver leur splendeur originale. Pas de modification, pas de style restomod, pas de changement.",
+      "Seule l'authenticité de chacun des aspects de leur restauration.",
+      "Fondée par Stéphane Vrinat, acteur du secteur automobile, et comme aucune autre entreprise, Typ901 a préservé certaines des unités restaurées pour réunir l'une des meilleures collections de Porsches roulantes au monde."
+      
+    ],
+    "timeline": [
+      {
+        "date": "2026",
+        "content": ["Type901 a restauré plus de 55 unités de Porsches uniques.", "The Rolling Museum accueille à présent 15 voitures pour sa 3ème année."]
+      },
+      {
+        "date": "2024",
+        "content": ["Typ901 célèbre son 10ème anniversaire en créant le Rolling Museum.","Le premier road trip a été organisé sur les routes magiques de Catalogne avec 10 Porsches Classiques restaurées."]
+      },
+      {
+        "date": "2014",
+        "content": ["Naissance deTyp901, Porsche Classic Specialist.","Le premier projet nécessitera 2 ans pour voir le jour mais beaucoup d'autres suivirent."]
+      },
+      {
+        "date": "2004",
+        "content": [
+          "Naissance de Ibermocion, entreprise de remarketing de véhicules d'occasion à Sant Andreu La Barca.","Plus de 35 000 véhicules ont été reconditionnés à ce jour."
+        ]
+      },
+      {
+        "date": "Début de années 2000",
+        "content": [
+          "Stéphane Vrinat achète sa première Porsche, une 930 turbo de 1986.",
+          "Cette voiture a incité Stéphane a constituer sa propre collection."
+        ]
+      }
+    ],
+    "more_info": "Plus d'informations"
   }
 }
