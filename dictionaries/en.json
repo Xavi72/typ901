@@ -340,7 +340,43 @@
       "zip": "08740",
       "phone": "+34 936 829 350",
       "mobile": "+34 667 367 018"
-
     }
+  },
+  "about_us": {
+    "title": "Our story",
+    "content": [
+      "Since 2014, Typ901 has been restoring Porsches to their original glory. No  modification, no restomod style, no change.",
+      "Only authenticity in every aspect of the restoration.",
+      "Founded by Stéphane Vrinat, automotive industry player, and like no other company, Typ901 has been turning restored units into one of the greatest moving and living Porsche collection in the world."
+      
+    ],
+    "timeline": [
+      {
+        "date": "2026",
+        "content": ["Type901 has restaured more than 55 unique Porsches.", "The Rolling Museum has grown up to 15 units for it's 3rd year."]
+      },
+      {
+        "date": "2024",
+        "content": ["Typ901 celebrates its 10th anniversary by creating the Rolling Museum.","The first trip was organized on the magical Catalonian roads with 10 restored classic Porsches."]
+      },
+      {
+        "date": "2014",
+        "content": ["Typ901, Porsche Classic Specialist is founded.","The first project took us for a 2 years journey but many more has followed."]
+      },
+      {
+        "date": "2004",
+        "content": [
+          "Ibermocion, cars remarketing company is founded in Sant Andreu La Barca.","More than 35 000 vehicles have been reconditioned so far."
+        ]
+      },
+      {
+        "date": "Early 2000's",
+        "content": [
+          "Stéphane Vrinat acquire his first Porsche, a 1986 930 turbo.",
+          "This car has marked the beginning of Stéphane’s collection will."
+        ]
+      }
+    ],
+    "more_info": "More information"
   }
 }
