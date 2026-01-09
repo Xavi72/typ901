@@ -348,25 +348,34 @@
       "Since 2014, Typ901 has been restoring Porsches to their original glory. No  modification, no restomod style, no change.",
       "Only authenticity in every aspect of the restoration.",
       "Founded by Stéphane Vrinat, automotive industry player, and like no other company, Typ901 has been turning restored units into one of the greatest moving Porsche collection in the world."
-      
     ],
     "timeline": [
       {
         "date": "2026",
-        "content": ["Type901 has restaured more than 55 unique Porsches.", "The Rolling Museum has grown up to 15 units for it's 3rd year."]
+        "content": [
+          "Type901 has restaured more than 55 unique Porsches.",
+          "The Rolling Museum has grown up to 15 units for it's 3rd year."
+        ]
       },
       {
         "date": "2024",
-        "content": ["Typ901 celebrates its 10th anniversary by creating the Rolling Museum.","The first trip was organized on the magical Catalonian roads with 10 restored classic Porsches."]
+        "content": [
+          "Typ901 celebrates its 10th anniversary by creating the Rolling Museum.",
+          "The first trip was organized on the magical Catalonian roads with 10 restored classic Porsches."
+        ]
       },
       {
         "date": "2014",
-        "content": ["Typ901, Porsche Classic Specialist is founded.","The first project took us for a 2 years journey but many more has followed."]
+        "content": [
+          "Typ901, Porsche Classic Specialist is founded.",
+          "The first project took us for a 2 years journey but many more has followed."
+        ]
       },
       {
         "date": "2004",
         "content": [
-          "Ibermocion, cars remarketing company is founded in Sant Andreu La Barca.","More than 35 000 vehicles have been reconditioned so far."
+          "Ibermocion, cars remarketing company is founded in Sant Andreu La Barca.",
+          "More than 35 000 vehicles have been reconditioned so far."
         ]
       },
       {
@@ -378,5 +387,29 @@
       }
     ],
     "more_info": "More information"
+  },
+  "services": {
+    "title": "Our services",
+    "subtitle": [
+      "We offer a wide range of services to ensure the best possible care for your Porsche."
+    ],
+    "services": [
+      {
+        "title": "Scheduled maintenance",
+        "description": "Factory-specification service intervals using original techniques and approved materials."
+      },
+      {
+        "title": "Repair",
+        "description": "Diagnosis and repairs of all mechanical systems by our experts with genuine, NOS and OEM parts."
+      },
+      {
+        "title": "Bodywork & paint",
+        "description": "Qualified bodywork and paintshop jobs with accurate and car-specific adaptive techniques."
+      },
+      {
+        "title": "Preservation",
+        "description": "Preventive care and storage solutions to protect your vehicle and maintain its functions."
+      }
+    ]
   }
 }

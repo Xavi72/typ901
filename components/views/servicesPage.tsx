@@ -1,9 +1,7 @@
-/* eslint-disable @next/next/no-img-element */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { getDictionary } from "@/app/[lang]/dictionaries";
 import Footer from "../molecules/footer/footer";
 import ContactSection from "../molecules/contactSection/contactSection";
-import Link from "next/link";
 
 export default async function AboutUsPage({
   params,
@@ -11,7 +9,6 @@ export default async function AboutUsPage({
   params: { lang: string };
 }) {
   const { lang } = await params;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const dict: any = await getDictionary(lang);
 
   return (
@@ -22,11 +19,11 @@ export default async function AboutUsPage({
           <div className="flex flex-row w-full h-auto gap-4 items-center">
             <div className="flex w-2 h-10 bg-red-500" />
             <h2 className="text-2xl font-bold text-white">
-              {dict?.about_us?.title}
+              {dict?.services?.title}
             </h2>
           </div>
           <div className="flex flex-col w-full max-w-[640px] h-auto mt-8 gap-4">
-            {dict?.about_us?.content?.map((text: any) => (
+            {dict?.services?.subtitle?.map((text: any) => (
               <p key={text} className="text-white leading-relaxed">
                 {text}
               </p>
@@ -34,11 +31,19 @@ export default async function AboutUsPage({
           </div>
         </div>
       </div>
-      <h1>Services</h1>
-      <h2> Maintenance</h2>
-      <h2> Repairs</h2>
-      <h2> Bodywork</h2>
-      <h2> Preservation</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gp-4 sm:gap-8 w-full max-w-[1280px] h-auto px-2 mt-8">
+        {dict?.services?.services.map((service: any, index: number) => (
+          <div
+            className="flex flex-col w-full h-auto min-h-48 p-2 bg-black/10 gap-2"
+            key={index}
+          >
+            <h3 className="text-sm font-bold text-white">{service.title}</h3>
+            <p className="text-xs sm:text-sm text-white ">
+              {service.description}
+            </p>
+          </div>
+        ))}
+      </div>
       <div className="flex flex-col w-full h-auto bg-black/5 items-center">
         <ContactSection dict={dict?.contact_section} usedLanguage={lang} />
       </div>
