@@ -15,7 +15,7 @@ export default async function Footer({
 }: {
   dict: any;
   menu: any;
-  usedLanguage: string;
+  usedLanguage: any;
 }) {
   return (
     <footer className="flex flex-col w-full h-auto pt-12 sm:pt-16 pb-4 px-4 md:px-8 bg-gray-800 items-center">
@@ -44,7 +44,7 @@ export default async function Footer({
               {menu?.menu_col_1?.content?.map((item: any, index: any) => (
                 <li key={index} className="flex flex-col w-auto h-auto gap-2">
                   <Link
-                    href={item.link}
+                    href={`/${usedLanguage}/${item?.link}`}
                     target={item.target}
                     className="text-xs sm:text-sm text-center  text-white hover:text-white/50 cursor-pointer active:scale-95 transition-all ease-in-out duration-200"
                   >
@@ -62,7 +62,7 @@ export default async function Footer({
               {menu?.menu_col_2?.content?.map((item: any, index: any) => (
                 <li key={index} className="flex flex-col w-auto h-auto gap-2">
                   <Link
-                    href={item.link}
+                    href={`/${usedLanguage}/${item?.link}`}
                     target={item.target}
                     className="text-xs sm:text-sm text-center  text-white hover:text-white/50 cursor-pointer active:scale-95 transition-all ease-in-out duration-200"
                   >
