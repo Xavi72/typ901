@@ -79,7 +79,14 @@ const HeaderMenu = ({ dict, lang }: { dict: any; lang: string }) => {
             z-20`}
       >
         {showMenu && (
-          <div ref={menuRef} className="flex flex-col w-full h-96 bg-gray-800">
+          <div
+            ref={menuRef}
+            className="flex flex-col w-full h-96 bg-gray-800"
+            onMouseLeave={() => {
+              if (menuIsOpen) setShowMenu(false);
+              setMenuIsOpen(false);
+            }}
+          >
             <div className="flex w-full h-20 px-[2%] justify-between items-center gap-4 sm:gap-8 md:gap-8 relative">
               <Link
                 href={`/${lang}`}
