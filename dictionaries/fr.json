@@ -35,24 +35,25 @@
       "title": "Typ901",
       "content": [
         {
-          "title": "Qui sommes nous?",
-          "link": "/about-us",
-          "target": "_self"
-        },
-        {
-          "title": "Contact",
-          "link": "/contact#contact",
-          "target": "_self"
-        },
-        {
           "title": "À vendre",
           "link": "https://www.elferspot.com/en/dealer/typ901-classic-porsche-expert/",
           "target": "_blank"
         },
         {
+          "title": "Notre histoire",
+          "link": "/about-us",
+          "target": "_self"
+        },
+      
+        {
           "title": "Rolling Museum",
           "link": "https://therollingmuseum.com/",
           "target": "_blank"
+        },
+        {
+          "title": "Contact",
+          "link": "/contact#contact",
+          "target": "_self"
         }
       ]
     }
@@ -346,7 +347,7 @@
       },
       {
         "date": "2024",
-        "content": ["Typ901 célèbre son 10ème anniversaire en créant le Rolling Museum.","Le premier road trip a été organisé sur les routes magiques de Catalogne avec 10 Porsches Classiques restaurées."]
+        "content": ["Typ901 célèbre son 10ème anniversaire en créant le Rolling Museum.","Le premier road trip a été organisé sur les routes magiques de Catalogne avec 10 Porsches classiques restaurées."]
       },
       {
         "date": "2014",
