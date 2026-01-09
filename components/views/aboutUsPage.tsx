@@ -15,7 +15,7 @@ export default async function AboutUsPage({
   const dict: any = await getDictionary(lang);
 
   return (
-    <div className="flex flex-col w-full h-sauto pt-24 items-center overflow-scroll bg-gray-800 relative">
+    <div className="flex flex-col w-full h-auto pt-24 items-center overflow-scroll bg-gray-800 relative">
       <div className="fixed top-0 left-0 w-full h-20 bg-gradient-to-b from-gray-800 to-transparent z-30"></div>
       <div className="flex flex-col w-full max-w-[1280px] h-auto px-4 ">
         <div className="flex flex-col w-full h-auto">
@@ -34,7 +34,6 @@ export default async function AboutUsPage({
           </div>
         </div>
 
-        <div className="flex flex-col w-auto h-auto"></div>
         <div className="flex flex-col md:flex-row w-full h-auto my-20 gap-8 ">
           <div className="flex flex-col w-full max-w-[700px] h-auto pl-4 gap-6">
             {dict?.about_us?.timeline?.map((item: any, index: number) => {
