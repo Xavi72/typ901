@@ -5,30 +5,26 @@
       "title": "Services",
       "content": [
         {
-          "title": "Maintenance",
-          "link": "/services#maintenance",
+          "title": "Restorations",
+          "link": "/restoration",
           "target": "_self"
         },
         {
           "title": "Repairs",
-          "link": "/services#repairs",
+          "link": "/maintenance-repairs",
           "target": "_self"
         },
         {
           "title": "Bodywork",
-          "link": "/services#bodywork",
+          "link": "/bodywork",
           "target": "_self"
         },
         {
           "title": "Preservation",
-          "link": "/services#preservation",
-          "target": "_self"
-        },
-        {
-          "title": "Restoration",
-          "link": "/restoration",
+          "link": "/preservation",
           "target": "_self"
         }
+        
       ]
     },
     "menu_col_2": {
@@ -40,7 +36,7 @@
           "target": "_blank"
         },
         {
-          "title": "About us",
+          "title": "Our story",
           "link": "/about-us",
           "target": "_self"
         },
@@ -71,7 +67,7 @@
     },
 
     "copyright": {
-      "title": "Copyright © 2025 Typ901 - All rights reserved",
+      "title": "Copyright © 2026 Typ901 - All rights reserved",
       "codekickers": "Made by Codekickers",
       "codekickers_url": "https://codekickers.com"
     }
@@ -106,24 +102,24 @@
       "subtitle": ["Pasionate professionals,", "not just suppliers"],
       "content": [
         {
-          "title": "Scheduled maintenance",
-          "description": "Factory-specification service intervals using original techniques and approved materials.",
-          "link": "/services#maintenance"
+          "title": "Restorations",
+          "description": "State of the art restorations, total or partialy of all kind of Porsche classic models.",
+          "link": "/restoration"
         },
         {
-          "title": "Mechanical repairs",
-          "description": "Diagnosis and repairs of all mechanical systems by our experts with genuine, NOS and OEM parts.",
-          "link": "/services#mechanical-repairs"
+          "title": "Maintenance & repairs",
+          "description": "Factory-specification services, diagnosis and repairs of all mechanical systems with genuine, NOS and OEM parts.",
+          "link": "/maintenance-repairs"
         },
         {
           "title": "Bodywork & Paint",
           "description": "Qualified bodywork and paintshop jobs with accurate and car-specific adaptive techniques.",
-          "link": "/services#bodywork"
+          "link": "/bodywork"
         },
         {
           "title": "Preservation Services",
           "description": "Preventive care and storage solutions to protect your vehicle and maintain its functions.",
-          "link": "/services#preservation"
+          "link": "/preservation"
         }
       ]
     },
@@ -193,7 +189,7 @@
         "content": [
           {
             "title": "1965 911 ",
-            "description": "Coming from The Junkyard: The Rudi Klein Collection Auction of november 2024",
+            "description": "Coming from The Junkyard: The Rudi Klein Collection Auction of november 2024. A unique history for a unique icon.",
             "image_url": "/assets/images/rk-1965.webp"
           },
           {
@@ -203,7 +199,7 @@
           },
           {
             "title": "1964 356 SC",
-            "description": "An restored original Bali Blue beauty, almost ready to go back on the road.",
+            "description": "A restored original Bali Blue beauty, almost ready to go back on the road.",
             "image_url": "/assets/images/bb-356-sc.webp"
           }
         ],
@@ -368,7 +364,7 @@
         "date": "2014",
         "content": [
           "Typ901, Porsche Classic Specialist is founded.",
-          "The first project took us for a 2 years journey but many more has followed."
+          "The first project took us for a 2 years journey but many more have followed."
         ]
       },
       {
@@ -388,28 +384,28 @@
     ],
     "more_info": "More information"
   },
-  "services": {
-    "title": "Our services",
+  "restorations": {
+    "title": "Restorations",
     "subtitle": [
       "We offer a wide range of services to ensure the best possible care for your Porsche."
-    ],
-    "services": [
-      {
-        "title": "Scheduled maintenance",
-        "description": "Factory-specification service intervals using original techniques and approved materials."
-      },
-      {
-        "title": "Repair",
-        "description": "Diagnosis and repairs of all mechanical systems by our experts with genuine, NOS and OEM parts."
-      },
-      {
-        "title": "Bodywork & paint",
-        "description": "Qualified bodywork and paintshop jobs with accurate and car-specific adaptive techniques."
-      },
-      {
-        "title": "Preservation",
-        "description": "Preventive care and storage solutions to protect your vehicle and maintain its functions."
-      }
+    ]
+  },
+  "maintenance_repairs": {
+    "title": "Maintenance & repairs",
+    "subtitle": [
+      "We offer a wide range of services to ensure the best possible care for your Porsche."
+    ]
+  },
+  "bodywork": {
+    "title": "Bodywork & paint",
+    "subtitle": [
+      "We offer a wide range of services to ensure the best possible care for your Porsche."
+    ]
+  },
+  "preservation": {
+    "title": "Preservation Services",
+    "subtitle": [
+      "We offer a wide range of services to ensure the best possible care for your Porsche."
     ]
   }
 }

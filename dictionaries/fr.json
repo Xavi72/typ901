@@ -4,29 +4,24 @@
     "menu_col_1": {
       "title": "Services",
       "content": [
-        {
-          "title": "Entretien",
-          "link": "/services#maintenance",
+               {
+          "title": "Restaurations",
+          "link": "/restoration",
           "target": "_self"
         },
         {
-          "title": "Réparation",
-          "link": "/services#repairs",
+          "title": "Réparations",
+          "link": "/maintenance-repairs",
           "target": "_self"
         },
         {
           "title": "Carrosserie",
-          "link": "/services#bodywork",
+          "link": "/bodywork",
           "target": "_self"
         },
         {
           "title": "Préservation",
-          "link": "/services#preservation",
-          "target": "_self"
-        },
-        {
-          "title": "Restauration",
-          "link": "/restoration",
+          "link": "/preservation",
           "target": "_self"
         }
       ]
@@ -72,7 +67,7 @@
     },
 
     "copyright": {
-      "title": "Copyright © 2025 Typ901 - All rights reserved",
+      "title": "Copyright © 2026 Typ901 - All rights reserved",
       "codekickers": "Made by Codekickers",
       "codekickers_url": "https://codekickers.com"
     }
@@ -112,23 +107,24 @@
       "subtitle": ["Professionnels passionnés,", "plus que des fournisseurs"],
       "content": [
         {
-          "title": "Entretien planifié",
-          "description": "Services programmés selon les normes du constructeur en utilisant les techniques et les matériaux certifiés.",
-          "link": "/services#maintenance"
+          "title": "Restaurations",
+          "description": "Restaurations totales ou partielles de tous modèles de Porsche classiques dans les règles de l'art.",
+          "link": "/restoration"
         },
         {
-          "title": "Réparations mécaniques",
-          "description": "Diagnostiques et réparations des ensembles mécaniques par nos experts, avec pièces OEM, NOS et genuines.",
-          "link": "/services#mechanical-repairs"
+          "title": "Entretien et réparations ",
+          "description": "Entretiens programmés, diagnostiques et réparations des ensembles mécaniques avec des pièces OEM, NOS et genuines.",
+          "link": "/maintenance-repairs"
         },
         {
           "title": "Carrosserie et peinture",
           "description": "Travaux de carrosserie et de peinture réalisés avec des procédures rigoureuses et adaptées au véhicule.",
-          "link": "/services#bodywork"
+          "link": "/bodywork"
         },
         {
           "title": "Services de préservation",
-          "description": "Interventions préventives et solutions de stockage pour la protection et le maintien de l'opérabilité du véhicule."
+          "description": "Interventions préventives et solutions de stockage pour la protection et le maintien de l'opérabilité du véhicule.",
+          "link": "/preservation"
         }
       ]
     },
@@ -198,7 +194,7 @@
         "content": [
           {
             "title": "1965 911 ",
-            "description": "En provenance de The Junkyard: The Rudi Klein Collection Auction de novembre 2024",
+            "description": "En provenance de The Junkyard: The Rudi Klein Collection Auction de novembre 2024. L'histoire unique d'une icone.",
             "image_url": "/assets/images/rk-1965.webp"
           },
           {
