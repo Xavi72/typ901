@@ -18,16 +18,24 @@ export default async function AboutUsPage({
     <div className="flex flex-col w-full h-auto pt-24 items-center overflow-scroll bg-gray-800 relative">
       <div className="fixed top-0 left-0 w-full h-20 bg-gradient-to-b from-gray-800 to-transparent z-30"></div>
       <div className="flex flex-col w-full max-w-[1280px] h-auto px-4 ">
-        <div className="flex flex-col w-full h-auto">
-          <div className="flex flex-row w-full h-auto gap-4 items-center">
+        <div className="flex flex-col w-full h-auto px-4 items-center gap-4">
+          <h2 className="flex w-full h-auto justify-center text-xs md:text-sm text-white/50 font-normal uppercase text-center">
+            {dict?.about_us?.claim}
+          </h2>
+          <h3 className="flex w-full h-auto justify-center text-[24px] sm:text-[36px] text-red-500 text-shadow-black text-shadow-sm font-semibold items-center">
+            {dict?.about_us?.title}
+          </h3>
+        </div>
+        <div className="flex flex-col w-full h-auto items-center">
+          {/*   <div className="flex flex-row w-full h-auto gap-4 items-center">
             <div className="flex w-2 h-10 bg-red-500" />
             <h2 className="text-2xl font-bold text-white">
               {dict?.about_us?.title}
             </h2>
-          </div>
-          <div className="flex flex-col w-full max-w-[640px] h-auto mt-8 gap-4">
+          </div> */}
+          <div className="flex flex-col w-full max-w-[640px] h-auto mt-8 gap-4 items-center">
             {dict?.about_us?.content?.map((text: any) => (
-              <p key={text} className="text-white leading-relaxed">
+              <p key={text} className="text-white leading-relaxed text-center">
                 {text}
               </p>
             ))}
