@@ -326,6 +326,19 @@
         "policies": "politiques de confidentialité"
       },
       "error_consent": "Veuillez confirmer"
+    },
+    "visit": {
+      "title": "Visitez-nous",
+      "content": [
+        "Vous pouvez visiter nos installations, voir les véhicules en préparation ou livrer votre Porsche directement à l'atelier.",
+        "Appelez-nous pour fixer un rendez-vous."
+      ],
+      "street": "Carrer dels Fondos, 22",
+      "city": "Sant Andreu de la Barca",
+      "province": "Barcelona",
+      "zip": "08740",
+      "phone": "+34 936 829 350",
+      "mobile": "+34 667 367 018"
     }
   },
    "about_us": {
@@ -364,5 +377,29 @@
       }
     ],
     "more_info": "Plus d'informations"
+  },
+  "restorations": {
+    "title": "Restorations",
+    "subtitle": [
+      "We offer a wide range of services to ensure the best possible care for your Porsche."
+    ]
+  },
+  "maintenance_repairs": {
+    "title": "Maintenance & repairs",
+    "subtitle": [
+      "We offer a wide range of services to ensure the best possible care for your Porsche."
+    ]
+  },
+  "bodywork": {
+    "title": "Bodywork & paint",
+    "subtitle": [
+      "We offer a wide range of services to ensure the best possible care for your Porsche."
+    ]
+  },
+  "preservation": {
+    "title": "Preservation Services",
+    "subtitle": [
+      "We offer a wide range of services to ensure the best possible care for your Porsche."
+    ]
   }
 }
