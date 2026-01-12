@@ -40,3 +40,16 @@ export default async function MaintenanceRepairsPage({
     </div>
   );
 }
+
+/* 
+- maintenance 
+    -> manufacturer specifications
+
+- repairs
+    -> Mechanical parts
+    -> Electrical parts
+    -> Motors and gearboxes, IMS RMS
+
+- Parts Genuine EOM and Nos
+- 
+ */

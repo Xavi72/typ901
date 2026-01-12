@@ -40,3 +40,14 @@ export default async function BodyworkPage({
     </div>
   );
 }
+
+/* 
+
+20 years of experience in bodywork with ibermocion 35000 vehicles repaired and prepared - Core business original
+- Bodywork
+    -> repair and restorations
+    -> non invasive techniques
+- Paintshop
+- Interiors
+
+*/
