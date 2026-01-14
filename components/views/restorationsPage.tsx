@@ -1,10 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { getDictionary } from "@/app/[lang]/dictionaries";
-import Footer from "../molecules/footer/footer";
-import ContactSection from "../molecules/contactSection/contactSection";
+import Footer from "@/components/molecules/footer/footer";
+import ContactSection from "@/components/molecules/contactSection/contactSection";
 import MethodologySection from "@/components/molecules/methodologySection/methodologySection";
-import ImagePopup from "@/components/molecules/popup/imagePopup";
+import MoreProjectSection from "@/components/molecules/projectSection/moreProjectSection";
+import ProjectSection from "@/components/molecules/projectSection/projectsSection";
 
 export default async function RestorationsPage({
   params,
@@ -25,11 +26,11 @@ export default async function RestorationsPage({
           {dict?.restorations?.title}
         </h3>
         <div className="flex flex-col w-full h-auto items-center">
-          <div className="flex flex-col w-full max-w-[640px] h-auto mt-8 gap-4 items-center">
+          <div className="flex flex-col w-full max-w-[640px] h-auto mt-2 sm:mt-8 gap-4 items-center">
             {dict?.restorations?.subtitle?.map((text: any) => (
               <p
                 key={text}
-                className="text-white leading-relaxed text-center text-white"
+                className="text-white leading-relaxed text-center text-white text-sm sm:text-base"
               >
                 {text}
               </p>
@@ -104,45 +105,26 @@ export default async function RestorationsPage({
           />
         </div>
       </div>
-      <div className="flex flex-col w-full max-w-[1280px] h-auto mt-8 px-4">
+      <div className="flex flex-col w-full max-w-[1280px] h-auto my-8 px-4">
         <div className="flex flex-col w-full max-w-[1280px] h-auto mt-20">
           <div className="flex flex-row w-full h-auto gap-4 items-center">
-            <div className="flex w-2 h-10 bg-red-500" />
-            <h2 className="text-2xl font-bold text-white">
+            <div className="flex w-2 h-8 sm:h-10 bg-red-500" />
+            <h2 className="text-xl sm:text-2xl font-bold text-white">
               {dict?.restorations?.past_projects?.title}
             </h2>
           </div>
           <div className="flex flex-col w-full h-auto mt-4 gap-2">
             {dict?.restorations?.past_projects?.subtitle?.map((item: any) => (
-              <p key={item} className="text-white">
+              <p key={item} className="text-white text-xs sm:text-sm">
                 {item}
               </p>
             ))}
           </div>
         </div>
-        <div className="flex flex-row flex-wrap w-full h-auto mt-4 gap-2">
-          {dict?.restorations?.past_projects?.tabs.map(
-            (tab: any, index: number) => {
-              return (
-                <div
-                  className="flex px-4 py-1 bg-white/10 rounded-full cursor-pointer hover:bg-black/40 active:scale-95"
-                  key={index}
-                >
-                  <p className="text-white text-xs sm:text-sm">
-                    {tab.tab_name}
-                  </p>
-                </div>
-              );
-            }
-          )}
-        </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 flex w-full h-auto mt-8 justify-center items-center gap-4">
-          {dict?.restorations?.past_projects?.projects.map(
-            (project: any, index: number) => {
-              return <ImagePopup project={project} index={index} key={index} />;
-            }
-          )}
-        </div>
+
+        <ProjectSection dict={dict} />
+
+        <MoreProjectSection dict={dict} />
       </div>
       <div className="flex flex-col w-full h-auto bg-black/5 items-center">
         <ContactSection dict={dict?.contact_section} usedLanguage={lang} />

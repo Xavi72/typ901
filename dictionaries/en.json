@@ -430,19 +430,108 @@
     "past_projects": {
       "title": "Past projects",
       "subtitle": ["Discover the project we've completed so far."],
-      "tabs": [
-        { "tab_id": 0, "tab_name": "All" },
-        { "tab_id": 1, "tab_name": "356" },
-        { "tab_id": 2, "tab_name": "914" },
-        { "tab_id": 3, "tab_name": "944" },
-        { "tab_id": 4, "tab_name": "968" },
-        { "tab_id": 5, "tab_name": "911 Serie F" },
-        { "tab_id": 6, "tab_name": "911 Serie G" },
-        { "tab_id": 7, "tab_name": "964" }
-      ],
+
       "projects": [
-        {"project_id": "356-B-1954", "model_type": "356", "model_year": "1954", "model": "356 B", "img_urls": ["/assets/images/bb-356-sc.webp", "/assets/images/rk-1965.webp"]}
-      ]
+        {
+          "project_id": "356-SC-1964",
+          "model_type": "356",
+          "model_year": "1964",
+          "model": "356 SC",
+          "img_urls": [
+            "/assets/images/p-356-sc/p-356-sc-0.png",
+            "/assets/images/p-356-sc/p-356-sc-1.jpg",
+            "/assets/images/p-356-sc/p-356-sc-2.jpg",
+            "/assets/images/p-356-sc/p-356-sc-3.jpg",
+            "/assets/images/p-356-sc/p-356-sc-4.jpg",
+            "/assets/images/p-356-sc/p-356-sc-5.jpg",
+            "/assets/images/p-356-sc/p-356-sc-6.jpg",
+            "/assets/images/p-356-sc/p-356-sc-7.jpg",
+            "/assets/images/p-356-sc/p-356-sc-8.jpg",
+            "/assets/images/p-356-sc/p-356-sc-9.jpg",
+            "/assets/images/p-356-sc/p-356-sc-10.jpg",
+            "/assets/images/p-356-sc/p-356-sc-11.jpg",
+            "/assets/images/p-356-sc/p-356-sc-12.jpg"
+          ]
+        },
+        {
+          "project_id": "3.2-carrera",
+          "model_type": "911",
+          "model_year": "1986",
+          "model": "911 Carrera",
+          "img_urls": [
+            "/assets/images/p-3-2-carrera/p-3-2-carrera-0.jpg",
+            "/assets/images/p-3-2-carrera/p-3-2-carrera-1.jpg",
+            "/assets/images/p-3-2-carrera/p-3-2-carrera-2.jpg",
+            "/assets/images/p-3-2-carrera/p-3-2-carrera-3.jpg",
+            "/assets/images/p-3-2-carrera/p-3-2-carrera-4.jpg",
+            "/assets/images/p-3-2-carrera/p-3-2-carrera-5.jpg",
+            "/assets/images/p-3-2-carrera/p-3-2-carrera-6.jpg",
+            "/assets/images/p-3-2-carrera/p-3-2-carrera-7.jpg",
+            "/assets/images/p-3-2-carrera/p-3-2-carrera-8.jpg",
+            "/assets/images/p-3-2-carrera/p-3-2-carrera-9.jpg",
+            "/assets/images/p-3-2-carrera/p-3-2-carrera-10.jpg",
+            "/assets/images/p-3-2-carrera/p-3-2-carrera-11.jpg"
+          ]
+        },
+        {
+          "project_id": "914-2.0L",
+          "model_type": "914 2.0l",
+          "model_year": "1974",
+          "model": "914 2.0l",
+          "img_urls": [
+            "/assets/images/p-914/p-914-0.jpg",
+            "/assets/images/p-914/p-914-1.jpg",
+            "/assets/images/p-914/p-914-2.jpg",
+            "/assets/images/p-914/p-914-3.jpg",
+            "/assets/images/p-914/p-914-4.jpg",
+            "/assets/images/p-914/p-914-5.jpg",
+            "/assets/images/p-914/p-914-6.jpg",
+            "/assets/images/p-914/p-914-7.jpg",
+            "/assets/images/p-914/p-914-8.jpg",
+            "/assets/images/p-914/p-914-9.jpg",
+            "/assets/images/p-914/p-914-10.jpg",
+            "/assets/images/p-914/p-914-11.jpg"
+          ]
+        },
+        {
+          "project_id": "928-my78",
+          "model_type": "968",
+          "model_year": "1978",
+          "model": "968",
+          "img_urls": [
+            "/assets/images/p-968/p-968-0.webp",
+            "/assets/images/p-968/p-968-1.webp",
+            "/assets/images/p-968/p-968-2.webp",
+            "/assets/images/p-968/p-968-3.webp",
+            "/assets/images/p-968/p-968-4.webp",
+            "/assets/images/p-968/p-968-5.webp",
+            "/assets/images/p-968/p-968-6.webp",
+            "/assets/images/p-968/p-968-7.webp",
+            "/assets/images/p-968/p-968-8.webp",
+            "/assets/images/p-968/p-968-9.webp",
+            "/assets/images/p-968/p-968-10.webp",
+            "/assets/images/p-968/p-968-11.webp"
+          ]
+        }
+      ],
+      "more_projects": [
+        {
+          "project_id": "359-bt6",
+          "model_type": "356",
+          "model_year": "1960",
+          "model": "356",
+          "img_urls": ["/assets/images/projects/p-356-bt6-60.png"]
+        },
+        {
+          "project_id": "911-2-2-72",
+          "model_type": "911 2.2l",
+          "model_year": "1972",
+          "model": "911 2.2l",
+          "img_urls": ["/assets/images/projects/p-911-2-2-72.png"]
+        }
+      ],
+      "more_button": "View more projects",
+      "less_button": "View less projects"
     }
   },
   "maintenance_repairs": {
