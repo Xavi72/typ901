@@ -338,11 +338,14 @@
     }
   },
    "about_us": {
+    "claim": "Passion para los Porsches clásicos",
     "title": "Nuestra historia",
     "content": [
-      "Desde 2014, Typ901 restaura Porsches y les ayuda a recuperar su splendor original. Sin modificación, sin estilo restomod, sin cambio.",
-      "Solo la autenticidad de cada aspecto de su restauración.",
-      "Fundada por Stéphane Vrinat, actor del sector automotriz, y como ninguna otra empresa, Typ901 ha preservado ciertas unidades restauradas, reunidas para rodar en una de las mejores colecciones de Porsches del mundo."
+     
+      "Desde 2014, Typ901 restaura Porsches y les ayuda a recuperar su splendor original. ",
+      "Sin modificación, sin estilo restomod, sin cambio. Solo la autenticidad de cada aspecto de su restauración.",
+       "Fundada por Stéphane Vrinat, actor del sector automotriz, y como ninguna otra empresa, Typ901 ha preservado ciertas unidades restauradas, reunidas para rodar en una de las mejores colecciones de Porsches del mundo."
+      
       
     ],
     "timeline": [

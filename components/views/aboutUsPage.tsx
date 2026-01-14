@@ -35,7 +35,10 @@ export default async function AboutUsPage({
           </div> */}
           <div className="flex flex-col w-full max-w-[640px] h-auto mt-8 gap-4 items-center">
             {dict?.about_us?.content?.map((text: any) => (
-              <p key={text} className="text-white leading-relaxed text-center">
+              <p
+                key={text}
+                className="text-white leading-relaxed text-center text-white"
+              >
                 {text}
               </p>
             ))}
@@ -59,7 +62,7 @@ export default async function AboutUsPage({
                           return (
                             <p
                               key={item}
-                              className="pl-2 text-white text-sm sm:text-base"
+                              className="pl-2 text-white/60 text-xs md:text-sm "
                             >
                               {item}
                             </p>
@@ -72,7 +75,7 @@ export default async function AboutUsPage({
               );
             })}
           </div>
-          <div className="flex flex-col w-full md:max-w-[300px] h-auto md:mt-10 items-center">
+          <div className="flex flex-col w-full md:max-w-[300px] h-auto mt-4 items-center">
             <div className="flex flex-col w-full h-auto items-center rounded-sm overflow-hidden">
               <img
                 src="/assets/images/s-v.webp"

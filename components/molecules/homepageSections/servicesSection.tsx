@@ -62,7 +62,7 @@ const ServicesSection = ({
                     <h3 className="flex h-8 items-center text-sm  text-white font-bold border-l-[10px] border-b-[0px] border-red-500 pl-2">
                       {service.title}
                     </h3>
-                    <p className="text-xs  text-white leading-relaxed">
+                    <p className="text-xs  text-white leading-relaxed text-white/50">
                       {service.description}
                     </p>
                     <div className="flex flex-row w-full h-auto pr-4 justify-end">

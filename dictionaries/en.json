@@ -24,7 +24,6 @@
           "link": "/preservation",
           "target": "_self"
         }
-        
       ]
     },
     "menu_col_2": {
@@ -339,10 +338,11 @@
     }
   },
   "about_us": {
+    "claim": "Passion for Classic Porsches",
     "title": "Our story",
     "content": [
-      "Since 2014, Typ901 has been restoring Porsches to their original glory. No  modification, no restomod style, no change.",
-      "Only authenticity in every aspect of the restoration.",
+      "Since 2014, Typ901 have been restoring Porsches to their original glory.",
+      "No modification, no restomod style, no change. Only authenticity in every aspect of the restoration.",
       "Founded by Stéphane Vrinat, automotive industry player, and like no other company, Typ901 has been turning restored units into one of the greatest moving Porsche collection in the world."
     ],
     "timeline": [
@@ -385,10 +385,65 @@
     "more_info": "More information"
   },
   "restorations": {
-    "title": "Restorations",
+    "claim": "Classic Porsches Restorations",
+    "title": "Preserving Porsche Heritage",
     "subtitle": [
-      "We offer a wide range of services to ensure the best possible care for your Porsche."
-    ]
+      "We've been restoring Porsches for over 10 years with always the same philosophy:"
+    ],
+    "responsability": {
+      "title": ["Our responsability", "to authenticity"],
+      "content": [
+        "We understand that when you entrust us with your Porsche to restore, you're sharing a piece of automotive history.",
+        "Our commitment goes beyond repair. We preserve the soul of each vehicle, maintaining every original specification with meticulous care and period-correct techniques."
+      ],
+      "cta": "Learn more"
+    },
+    "methodology": {
+      "title": "Our restoration philosophy",
+      "subtitle": [
+        "Each process is unique,  depending on the condition of the vehicle.",
+        "No matter the model, we always start from the same point in order to deliver the best result."
+      ],
+      "content": [
+        {
+          "title": "Assessment",
+          "description": "Complete documentation and evaluation of current condition"
+        },
+        {
+          "title": "Disassembly",
+          "description": "Careful cataloging and photography of every component"
+        },
+        {
+          "title": "Restoration",
+          "description": "Precision work using original specifications and techniques"
+        },
+        {
+          "title": "Rebuilding",
+          "description": "Meticulous reassembly with restored or verified authentic parts"
+        },
+        {
+          "title": "Quality Control",
+          "description": "Final inspection and testing to ensure operability prior delivery"
+        }
+      ]
+    },
+    "past_projects": {
+      "title": "Past projects",
+      "subtitle": ["Discover the project we've completed so far."],
+      "tabs": [
+        { "tab_id": 0, "tab_name": "All" },
+        { "tab_id": 1, "tab_name": "356" },
+        { "tab_id": 2, "tab_name": "914" },
+        { "tab_id": 3, "tab_name": "944" },
+        { "tab_id": 4, "tab_name": "968" },
+        { "tab_id": 5, "tab_name": "911 Serie F" },
+        { "tab_id": 6, "tab_name": "911 Serie G" },
+        { "tab_id": 7, "tab_name": "964" }
+      ],
+      "projects": [
+        {"project_id": "356-B-1954", "model_type": "356", "model_year": "1954", "model": "356 B", "img_urls": ["/assets/images/bb-356-sc.webp", "/assets/images/rk-1965.webp"]}
+      ]
+    }
   },
   "maintenance_repairs": {
     "title": "Maintenance & repairs",
