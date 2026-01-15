@@ -39,7 +39,7 @@ const ImagePopup = ({
           alt="car"
           className="w-full h-full object-cover object-center"
         />
-        <div className="absolute top-0 flex flex-col w-full h-full p-4 justify-end bg-linear-to-t from-gray-800/60 to-transparent hover:from-gray-800/20 hover:to-transparent">
+        <div className="sm:absolute top-0 flex flex-col w-full h-full p-4 justify-end bg-linear-to-t from-gray-800/60 to-transparent hover:from-gray-800/20 hover:to-transparent">
           <p className="text-white/80 text-xs sm:text-sm font-semibold">
             Porsche {project?.model} - {project?.model_year}
           </p>

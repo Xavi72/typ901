@@ -87,7 +87,12 @@ const MoreProjectSection = ({ dict }: { dict: any }) => {
         <button
           className={`
               flex w-auto h-auto px-4 py-2 
-            bg-red-500 hover:bg-gray-600 transition-all duration-200 ease-in-out rounded-sm
+            ${
+              showMoreProjects
+                ? "bg-gray-600 hover:bg-gray-700"
+                : "bg-red-500 hover:bg-gray-600"
+            }
+              transition-all duration-200 ease-in-out rounded-sm
               text-white text-xs sm:text-sm font-semibold
               active:scale-95 cursor-pointer `}
           onClick={() => setShowMoreProjects(!showMoreProjects)}
@@ -100,12 +105,16 @@ const MoreProjectSection = ({ dict }: { dict: any }) => {
       <div
         className={`
               flex flex-col w-full 
-              ${showMoreProjects ? "h-[360px]" : "h-0"}
+              ${
+                showMoreProjects
+                  ? "h-[1530px] sm:h-[880px] xl:h-[440px]"
+                  : "h-0"
+              }
               transition-[height] duration-200 ease-in-out
           `}
       >
         {showMoreProjects && (
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2  xl:grid-cols-4 flex w-full h-auto mt-8 justify-center items-center gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2  xl:grid-cols-4 flex w-full h-auto mt-2 justify-center items-center gap-4">
             {dict?.restorations?.past_projects?.more_projects.map(
               (project: any, index: number) => {
                 return (
