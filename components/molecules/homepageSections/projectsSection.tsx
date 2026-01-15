@@ -12,7 +12,7 @@ const ProjectsSection = ({
   usedLanguage: string;
 }) => {
   const slotsNumber = [1, 2, 3, 4, 5, 6];
-  const remainingSlots = [1, 2];
+  const remainingSlots = [1, 2, 3];
 
   return (
     <section className="flex flex-col w-full max-w-[1280px] h-auto my-20 px-4 md:px-8 md:justify-center items-center overflow-scroll">
