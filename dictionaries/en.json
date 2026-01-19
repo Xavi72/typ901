@@ -1,5 +1,5 @@
 {
-  "title": ["Porsche", "classics", "specialist"],
+  "title": ["Porsche", "classics", "expert"],
   "menu": {
     "menu_col_1": {
       "title": "Services",
@@ -97,7 +97,7 @@
       "title": ["Classic Porsches never die,", "they are reborn..."]
     },
     "services": {
-      "title": ["Porsche", "classics", "specialist"],
+      "title": ["Porsche", "classics", "expert"],
       "subtitle": ["Pasionate professionals,", "not just suppliers"],
       "content": [
         {
@@ -387,9 +387,7 @@
   "restorations": {
     "claim": "Classic Porsches Restorations",
     "title": "Preserving Porsche Heritage",
-    "subtitle": [
-      "We've been restoring Porsches for over 10 years with always the same philosophy:"
-    ],
+    "subtitle": ["Since 2014, we've been restoring classic Porsches to their original glory.","Our team reborn iconic units from extreme conditions or dammages.","Bodywork, engines, gearbox, electrical systems, interiors are all done in house."],
     "responsability": {
       "title": ["Our responsability", "to authenticity"],
       "content": [
@@ -427,10 +425,53 @@
         }
       ]
     },
+    "current_projects": {
+      "title": "Current projects & Available slots",
+      "subtitle": ["We are constantly sourcing impressive, captivating and exclusive restoration projects around the globe that will join our private collection or for our customers."],
+      "projects": [
+        {
+          "project_id": "911-1965",
+          "model_type": "911",
+          "model_year": "1965",
+          "model": "911 Rudy Klein",
+          "img_urls": [
+            "/assets/images/p-911-1965-rk/rk-1965.webp"
+          ]
+        },
+        {
+          "project_id": "2.7l Carrera",
+          "model_type": "911",
+          "model_year": "1974",
+          "model": "911 2.7lCarrera",
+          "img_urls": [
+            "/assets/images/2-7-karmelot/karmelot-0.webp"
+          ]
+        },
+        {
+          "project_id": "914-2.0L",
+          "model_type": "914 2.0l",
+          "model_year": "1974",
+          "model": "914 2.0l",
+          "img_urls": [
+            "/assets/images/p-914/p-914-0.jpg",
+            "/assets/images/p-914/p-914-1.jpg",
+            "/assets/images/p-914/p-914-2.jpg",
+            "/assets/images/p-914/p-914-3.jpg",
+            "/assets/images/p-914/p-914-4.jpg",
+            "/assets/images/p-914/p-914-5.jpg",
+            "/assets/images/p-914/p-914-6.jpg",
+            "/assets/images/p-914/p-914-7.jpg",
+            "/assets/images/p-914/p-914-8.jpg",
+            "/assets/images/p-914/p-914-9.jpg",
+            "/assets/images/p-914/p-914-10.jpg",
+            "/assets/images/p-914/p-914-11.jpg"
+          ]
+        }
+      ]
+    },
     "past_projects": {
       "title": "Past projects",
-      "subtitle": ["Discover the project we've completed so far."],
-
+      "subtitle": ["Discover some of the projects we've completed so far."],
       "projects": [
         {
           "project_id": "356-SC-1964",
@@ -524,10 +565,45 @@
         },
         {
           "project_id": "911-2-2-72",
-          "model_type": "911 2.2l",
+          "model_type": "911",
           "model_year": "1972",
           "model": "911 2.2l",
           "img_urls": ["/assets/images/projects/p-911-2-2-72.png"]
+        },
+        {
+          "project_id": "911-2-4-s-72",
+          "model_type": "911",
+          "model_year": "1972",
+          "model": "911 2.4S",
+          "img_urls": ["/assets/images/projects/p-911-2-4-s-72.png"]
+        },
+        {
+          "project_id": "928-79",
+          "model_type": "928",
+          "model_year": "1979",
+          "model": "928",
+          "img_urls": ["/assets/images/projects/p-928-79.png"]
+        },
+        {
+          "project_id": "911-2-7-74",
+          "model_type": "911",
+          "model_year": "1974",
+          "model": "911 2.7",
+          "img_urls": ["/assets/images/projects/p-911-2-7-74.png"]
+        },
+        {
+          "project_id": "911-2-7-green-74",
+          "model_type": "911",
+          "model_year": "1974",
+          "model": "911 2.7",
+          "img_urls": ["/assets/images/projects/p-911-2-7-green-74.png"]
+        },
+        {
+          "project_id": "911-carrera-2-7-74",
+          "model_type": "911",
+          "model_year": "1974",
+          "model": "911 carrera 2.7",
+          "img_urls": ["/assets/images/projects/p-911-carrera-2-7-74.png"]
         }
       ],
       "more_button": "View more projects",
