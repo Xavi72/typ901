@@ -1,10 +1,9 @@
-/* eslint-disable @next/next/no-img-element */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { getDictionary } from "@/app/[lang]/dictionaries";
 import Footer from "../molecules/footer/footer";
 import ContactSection from "../molecules/contactSection/contactSection";
 
-export default async function BodyworkPage({
+export default async function ServicesPage({
   params,
 }: {
   params: { lang: string };
@@ -20,11 +19,11 @@ export default async function BodyworkPage({
           <div className="flex flex-row w-full h-auto gap-4 items-center">
             <div className="flex w-2 h-10 bg-red-500" />
             <h2 className="text-2xl font-bold text-white">
-              {dict?.bodywork?.title}
+              {dict?.services?.title}
             </h2>
           </div>
           <div className="flex flex-col w-full max-w-[640px] h-auto mt-8 gap-4">
-            {dict?.bodywork?.subtitle?.map((text: any) => (
+            {dict?.services?.subtitle?.map((text: any) => (
               <p key={text} className="text-white leading-relaxed">
                 {text}
               </p>
@@ -42,12 +41,14 @@ export default async function BodyworkPage({
 }
 
 /* 
+- maintenance 
+    -> manufacturer specifications
 
-20 years of experience in bodywork with ibermocion 35000 vehicles repaired and prepared - Core business original
-- Bodywork
-    -> repair and restorations
-    -> non invasive techniques
-- Paintshop
-- Interiors
+- repairs
+    -> Mechanical parts
+    -> Electrical parts
+    -> Motors and gearboxes, IMS RMS
 
-*/
+- Parts Genuine EOM and Nos
+- 
+ */
