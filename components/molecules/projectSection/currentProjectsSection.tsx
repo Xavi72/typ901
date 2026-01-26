@@ -7,7 +7,7 @@ import { useEffect, useRef, useState } from "react";
 
 import CloseIcon from "@/public/assets/icons/close.svg";
 
-const ProjectSection = ({ dict }: { dict: any }) => {
+const CurrentProjectsSection = ({ dict }: { dict: any }) => {
   const [popupIsOpen, setPopupIsOpen] = useState(false);
   const popupRef = useRef<HTMLDivElement>(null);
   const [imgUrlIndex, setImgUrlIndex] = useState(0);
@@ -82,8 +82,8 @@ const ProjectSection = ({ dict }: { dict: any }) => {
           </div>
         </div>
       )}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-4 flex w-full h-auto mt-8 justify-center items-center gap-4">
-        {dict?.restorations?.past_projects?.projects.map(
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 flex w-full h-auto mt-8 justify-center items-center gap-4">
+        {dict?.restorations?.current_projects?.projects.map(
           (project: any, index: number) => {
             return (
               <ImagePopup
@@ -101,4 +101,4 @@ const ProjectSection = ({ dict }: { dict: any }) => {
   );
 };
 
-export default ProjectSection;
+export default CurrentProjectsSection;

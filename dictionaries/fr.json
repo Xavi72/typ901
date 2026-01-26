@@ -1,5 +1,5 @@
 {
-  "title": ["Porsche", "classics", "specialist"],
+  "title": ["Porsche", "classics", "expert"],
   "menu": {
     "menu_col_1": {
       "title": "Services",
@@ -11,17 +11,17 @@
         },
         {
           "title": "Réparations",
-          "link": "/maintenance-repairs",
+          "link": "/services#maintenance-repairs",
           "target": "_self"
         },
         {
           "title": "Carrosserie",
-          "link": "/bodywork",
+          "link": "/services#bodywork",
           "target": "_self"
         },
         {
           "title": "Préservation",
-          "link": "/preservation",
+          "link": "/services#preservation",
           "target": "_self"
         }
       ]
@@ -103,7 +103,7 @@
       ]
     },
     "services": {
-      "title": ["Porsche", "classics", "specialist"],
+      "title": ["Porsche", "classics", "expert"],
       "subtitle": ["Professionnels passionnés,", "plus que des fournisseurs"],
       "content": [
         {
@@ -114,17 +114,17 @@
         {
           "title": "Entretien et réparations ",
           "description": "Entretiens programmés, diagnostiques et réparations des ensembles mécaniques avec des pièces OEM, NOS et genuines.",
-          "link": "/maintenance-repairs"
+          "link": "/services#maintenance-repairs"
         },
         {
           "title": "Carrosserie et peinture",
           "description": "Travaux de carrosserie et de peinture réalisés avec des procédures rigoureuses et adaptées au véhicule.",
-          "link": "/bodywork"
+          "link": "/services#bodywork"
         },
         {
           "title": "Services de préservation",
           "description": "Interventions préventives et solutions de stockage pour la protection et le maintien de l'opérabilité du véhicule.",
-          "link": "/preservation"
+          "link": "/services#preservation"
         }
       ]
     },
@@ -380,14 +380,236 @@
     ],
     "more_info": "Plus d'informations"
   },
-  "restorations": {
-    "claim": "Passion pour les Porsches classiques",
-    "title": "Restorations",
-    "subtitle": [
-      "We offer a wide range of services to ensure the best possible care for your Porsche."
-    ]
+    "restorations": {
+    "claim": "Restauration de Prosche classiques",
+    "title": "Préservation de l'héritage Porsche",
+    "subtitle": ["Depuis 2014, nous restaurons des Porsches classiques pour qu'elles retrouvent leur gloire originale.","Notre équipe redonne vie des icones parfois dans des conditions extrêmes ou aux dommages étendus.","Nous effectuons les travaux de carrosserie, moteur, boîte de vitesses, systèmes électriques et intérieurs directement dans nos installations."],
+    "responsability": {
+      "title": ["Notre responsabilité", "avec l'authenticité"],
+      "content": [
+    
+        "Notre engagement va plus loin que la réparation. Nous préservons l'âme de chaque véhicule, en maintenant ses spécifications d'origine avec des méthodes de fabrication et des techniques égales à celles du constructeur."
+      ]
+   
+    },
+    "methodology": {
+      "title": "Notre philosophie de restauration",
+      "subtitle": [
+        "Chaque étape est unique, directement liée à la condition du véhicule.",
+        "Peu importe le modèle, nous commençons toujours depuis le même point pour offrir le meilleur résultat."  
+      ],
+      "content": [
+        {
+          "title": "Évaluation",
+          "description": "Documentation complète et évaluation de la condition initiale"
+        },
+        {
+          "title": "Démontage",
+          "description": "Inventaire minutieux et photographique de chaque composant"
+        },
+        {
+          "title": "Restauration",
+          "description": "Travail précis par utilisation des spécifications et techniques d'origine"
+        },
+        {
+          "title": "Reconstruction",
+          "description": "Reassemblage méticuleux avec des pièces restaurées ou des pièces d'origine constructeur."
+        },
+        {
+          "title": "Contrôle de qualité",
+          "description": "Inspection finale et tests pour garantir la fonctionnalité avant la livraison"
+        }
+      ]
+    },
+    "current_projects": {
+      "title": "Projets actuels & Véhicules disponibles",
+       "subtitle": ["Nous restaurons plusieurs véhicules en parallèle et avons différentes unités disponibles en stock pour nos clients.","Contactez-nous pour en savoir plus."],
+      "projects": [
+        {
+          "project_id": "911-1965",
+          "model_type": "911",
+          "model_year": "1965",
+          "model": "Porsche 911 Rudy Klein",
+          "img_urls": [
+            "/assets/images/p-911-1965-rk/rk-1965.webp",
+            "/assets/images/p-911-1965-rk/rk-65-1.webp",
+            "/assets/images/p-911-1965-rk/rk-65-2.webp",
+            "/assets/images/p-911-1965-rk/rk-65-3.webp",
+            "/assets/images/p-911-1965-rk/rk-65-4.webp",
+            "/assets/images/p-911-1965-rk/rk-65-5.webp",
+            "/assets/images/p-911-1965-rk/rk-65-6.webp",
+            "/assets/images/p-911-1965-rk/rk-65-7.webp"
+          ]
+        },
+        {
+          "project_id": "2.7l Carrera",
+          "model_type": "911",
+          "model_year": "1974",
+          "model": "Porsche 911 2.7l Carrera",
+          "img_urls": [
+            "/assets/images/2-7-karmelot/karmelot-0.webp",
+            "/assets/images/2-7-karmelot/karmelot-1.webp",
+            "/assets/images/2-7-karmelot/karmelot-2.webp",
+            "/assets/images/2-7-karmelot/karmelot-3.webp"
+          ]
+        },
+        {
+          "project_id": "All",
+          "model_type": "all",
+          "model_year": "de 1965 à 1993",
+          "model": "Différents modèles disponibles",
+          "img_urls": [
+            "/assets/images/actual-projects/projects-4.webp",
+            "/assets/images/actual-projects/projects-0.webp",
+            "/assets/images/actual-projects/projects-2.webp",
+            "/assets/images/actual-projects/projects-3.webp",
+            "/assets/images/actual-projects/projects-5.webp"
+          ]
+        }
+      ]
+    },
+    "past_projects": {
+      "title": "Projets livrés",
+      "subtitle": ["Découvrez certains véhicules restaurés jusqu'à présent."],
+      "projects": [
+        {
+          "project_id": "356-SC-1964",
+          "model_type": "356",
+          "model_year": "1964",
+          "model": "Porsche 356 SC",
+          "img_urls": [
+            "/assets/images/p-356-sc/p-356-sc-0.png",
+            "/assets/images/p-356-sc/p-356-sc-1.jpg",
+            "/assets/images/p-356-sc/p-356-sc-2.jpg",
+            "/assets/images/p-356-sc/p-356-sc-3.jpg",
+            "/assets/images/p-356-sc/p-356-sc-4.jpg",
+            "/assets/images/p-356-sc/p-356-sc-5.jpg",
+            "/assets/images/p-356-sc/p-356-sc-6.jpg",
+            "/assets/images/p-356-sc/p-356-sc-7.jpg",
+            "/assets/images/p-356-sc/p-356-sc-8.jpg",
+            "/assets/images/p-356-sc/p-356-sc-9.jpg",
+            "/assets/images/p-356-sc/p-356-sc-10.jpg",
+            "/assets/images/p-356-sc/p-356-sc-11.jpg",
+            "/assets/images/p-356-sc/p-356-sc-12.jpg"
+          ]
+        },
+        {
+          "project_id": "3.2-carrera",
+          "model_type": "911",
+          "model_year": "1986",
+          "model": "Porsche 911 Carrera",
+          "img_urls": [
+            "/assets/images/p-3-2-carrera/p-3-2-carrera-0.jpg",
+            "/assets/images/p-3-2-carrera/p-3-2-carrera-1.jpg",
+            "/assets/images/p-3-2-carrera/p-3-2-carrera-2.jpg",
+            "/assets/images/p-3-2-carrera/p-3-2-carrera-3.jpg",
+            "/assets/images/p-3-2-carrera/p-3-2-carrera-4.jpg",
+            "/assets/images/p-3-2-carrera/p-3-2-carrera-5.jpg",
+            "/assets/images/p-3-2-carrera/p-3-2-carrera-6.jpg",
+            "/assets/images/p-3-2-carrera/p-3-2-carrera-7.jpg",
+            "/assets/images/p-3-2-carrera/p-3-2-carrera-8.jpg",
+            "/assets/images/p-3-2-carrera/p-3-2-carrera-9.jpg",
+            "/assets/images/p-3-2-carrera/p-3-2-carrera-10.jpg",
+            "/assets/images/p-3-2-carrera/p-3-2-carrera-11.jpg"
+          ]
+        },
+        {
+          "project_id": "914-2.0L",
+          "model_type": "914 2.0l",
+          "model_year": "1974",
+          "model": "Porsche 914 2.0l",
+          "img_urls": [
+            "/assets/images/p-914/p-914-0.jpg",
+            "/assets/images/p-914/p-914-1.jpg",
+            "/assets/images/p-914/p-914-2.jpg",
+            "/assets/images/p-914/p-914-3.jpg",
+            "/assets/images/p-914/p-914-4.jpg",
+            "/assets/images/p-914/p-914-5.jpg",
+            "/assets/images/p-914/p-914-6.jpg",
+            "/assets/images/p-914/p-914-7.jpg",
+            "/assets/images/p-914/p-914-8.jpg",
+            "/assets/images/p-914/p-914-9.jpg",
+            "/assets/images/p-914/p-914-10.jpg",
+            "/assets/images/p-914/p-914-11.jpg"
+          ]
+        },
+        {
+          "project_id": "928-my78",
+          "model_type": "968",
+          "model_year": "1978",
+          "model": "Porsche 968",
+          "img_urls": [
+            "/assets/images/p-968/p-968-0.webp",
+            "/assets/images/p-968/p-968-1.webp",
+            "/assets/images/p-968/p-968-2.webp",
+            "/assets/images/p-968/p-968-3.webp",
+            "/assets/images/p-968/p-968-4.webp",
+            "/assets/images/p-968/p-968-5.webp",
+            "/assets/images/p-968/p-968-6.webp",
+            "/assets/images/p-968/p-968-7.webp",
+            "/assets/images/p-968/p-968-8.webp",
+            "/assets/images/p-968/p-968-9.webp",
+            "/assets/images/p-968/p-968-10.webp",
+            "/assets/images/p-968/p-968-11.webp"
+          ]
+        }
+      ],
+      "more_projects": [
+        {
+          "project_id": "359-bt6",
+          "model_type": "356",
+          "model_year": "1960",
+          "model": "Porsche 356",
+          "img_urls": ["/assets/images/projects/p-356-bt6-60.png"]
+        },
+        {
+          "project_id": "911-2-2-72",
+          "model_type": "911",
+          "model_year": "1972",
+          "model": "Porsche 911 2.2l",
+          "img_urls": ["/assets/images/projects/p-911-2-2-72.png"]
+        },
+        {
+          "project_id": "911-2-4-s-72",
+          "model_type": "911",
+          "model_year": "1972",
+          "model": "Porsche 911 2.4S",
+          "img_urls": ["/assets/images/projects/p-911-2-4-s-72.png"]
+        },
+        {
+          "project_id": "928-79",
+          "model_type": "928",
+          "model_year": "1979",
+          "model": "Porsche 928",
+          "img_urls": ["/assets/images/projects/p-928-79.png"]
+        },
+        {
+          "project_id": "911-2-7-74",
+          "model_type": "911",
+          "model_year": "1974",
+          "model": "Porsche 911 2.7",
+          "img_urls": ["/assets/images/projects/p-911-2-7-74.png"]
+        },
+        {
+          "project_id": "911-2-7-green-74",
+          "model_type": "911",
+          "model_year": "1974",
+          "model": "Porsche 911 2.7",
+          "img_urls": ["/assets/images/projects/p-911-2-7-green-74.png"]
+        },
+        {
+          "project_id": "911-carrera-2-7-74",
+          "model_type": "911",
+          "model_year": "1974",
+          "model": "Porsche 911 carrera 2.7",
+          "img_urls": ["/assets/images/projects/p-911-carrera-2-7-74.png"]
+        }
+      ],
+      "more_button": "Voir plus de véhicules",
+      "less_button": "Voir moins de véhicules"
+    }
   },
-  "maintenance_repairs": {
+  "services": {
     "title": "Maintenance & repairs",
     "subtitle": [
       "We offer a wide range of services to ensure the best possible care for your Porsche."
