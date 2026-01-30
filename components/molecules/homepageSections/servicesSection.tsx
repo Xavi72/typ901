@@ -18,21 +18,21 @@ const ServicesSection = ({
           <img
             src="/assets/images/front-workshop-typ901.png"
             alt="Type901 workshop front door"
-            className="w-auto h-full object-cover object-top-right"
+            className="w-auto h-full object-cover object-top-center"
           />
         </div>
-        <div className="flex flex-col w-full md:w-1/2 h-full px-4 sm:py-20">
-          <div className="flex flex-col w-full h-full justify-center gap-6 md:gap-8">
+        <div className="flex flex-col w-full md:w-1/2 h-full px-4 py-20">
+          <div className="flex flex-col w-full h-full justify-start md:justify-center gap-6 md:gap-8">
             <div className="flex flex-row flex-wrap w-full h-auto px-4 md:px-0 justify-center text-center gap-x-4 gap-y-0">
               {dict?.landing?.services?.title.map(
                 (text: string, index: number) => (
                   <h2
                     key={index}
-                    className="font-typ901 text-red-500 text-[16px] sm:text-[26px] font-normal text-pretty text-center text-shadow-black text-shadow-sm"
+                    className="font-typ901 text-red-500 text-[16px] sm:text-[22px] md:text-[26px] font-normal text-pretty text-center text-shadow-black text-shadow-sm"
                   >
                     {text}
                   </h2>
-                )
+                ),
               )}
             </div>
             <div className="flex flex-row flex-wrap w-full h-auto justify-center gap-2">
@@ -44,10 +44,10 @@ const ServicesSection = ({
                   >
                     {subtitle}
                   </h3>
-                )
+                ),
               )}
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-2 flex-row flex-wrap w-full h-auto mt-8 gap-4 md:gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 xl:grid-cols-2 flex-row flex-wrap w-full h-auto mt-8 gap-4 md:gap-8">
               {dict?.landing?.services?.content?.map(
                 (service: any, index: number) => (
                   <Link
@@ -59,17 +59,17 @@ const ServicesSection = ({
                       cursor-pointer active:scale-95 
                     `}
                   >
-                    <h3 className="flex h-8 items-center text-sm  text-white font-bold border-l-[10px] border-b-[0px] border-red-500 pl-2">
+                    <h3 className="flex h-8 items-center text-sm sm:text-base text-white font-bold border-l-[10px] border-b-[0px] border-red-500 pl-2">
                       {service.title}
                     </h3>
-                    <p className="text-xs  text-white leading-relaxed text-white/50">
+                    <p className="text-xs sm:text-sm text-white leading-relaxed text-white/50">
                       {service.description}
                     </p>
                     <div className="flex flex-row w-full h-auto pr-4 justify-end">
                       <RightArrow className="w-6 h-6 text-white hover-text-red-500 " />
                     </div>
                   </Link>
-                )
+                ),
               )}
             </div>
           </div>
