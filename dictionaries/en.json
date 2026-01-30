@@ -1,5 +1,5 @@
 {
-  "title": ["Porsche", "classics", "expert"],
+  "title": ["Porsche", "classic", "expert"],
   "menu": {
     "menu_col_1": {
       "title": "Services",
@@ -385,16 +385,18 @@
     "more_info": "More information"
   },
   "restorations": {
-    "claim": "Classic Porsches Restorations",
+    "claim": "Classics Porsches Restorations",
     "title": "Preserving Porsche Heritage",
-    "subtitle": ["Since 2014, we've been restoring classic Porsches to their original glory.","Our team reborn iconic units from extreme conditions and dammages.","Bodywork, engines, gearbox, electrical systems, interiors are all done in house."],
+    "subtitle": [
+      "Since 2014, we've been restoring classic Porsches to their original glory.",
+      "Our team reborn iconic units from extreme conditions and dammages.",
+      "Bodywork, engines, gearbox, electrical systems, interiors are all done in house."
+    ],
     "responsability": {
       "title": ["Our responsability", "to authenticity"],
       "content": [
-    
         "Our commitment goes beyond repair. We preserve the soul of each vehicle, maintaining every original specification with meticulous care and period-correct techniques."
       ]
-      
     },
     "methodology": {
       "title": "Our restoration philosophy",
@@ -427,7 +429,10 @@
     },
     "current_projects": {
       "title": "Current projects & Available cars",
-      "subtitle": ["We are restauring several cars at a time and do have available units in stock for our customers.","Contact us to learn more."],
+      "subtitle": [
+        "We are restauring several cars at a time and do have available units in stock for our customers.",
+        "Contact us to learn more."
+      ],
       "projects": [
         {
           "project_id": "911-1965",
@@ -614,9 +619,75 @@
     }
   },
   "services": {
-    "title": "Maintenance & repairs",
+    "claim": "Services",
+    "title": "Porsche Classic Expert",
     "subtitle": [
-      "We offer a wide range of services to ensure the best possible care for your Porsche."
-    ]
+      "Since 2014, we provide the specialized care that classic Porsche models require."
+    ],
+    "maintenance": {
+      "title": "Maintenance & Repairs",
+      "subtitle": [
+        "Regular maintenance is key to preserving your classic Porsche's performance and value.",
+        "We offer comprehensive inspection, servicing and repair services to keep your car running smoothly.",
+        "From oil changes to major engine overhauls, our experienced team ensures your Porsche receives the care it deserves."
+      ],
+      "items": [
+        {
+          "title": "Maintenance",
+          "services": [
+            "Oil change & fluid services",
+            "Filters replacement",
+            "Tires replacement & Wheels alignment",
+            "Brakes replacement"
+          ], 
+          "img": {
+            "src": "/assets/images/maintenance-motor.webp",
+            "alt": "Maintenance image"
+          }
+        },
+        {
+          "title": "Repairs",
+          "services": [
+            "Electrical system diagnostic",
+            "Suspension & steering replacement",
+            "All mechanical parts replacement",
+            "Mechanical upgrades"
+          ],
+          "img": {
+            "src": "/assets/images/suspension.webp",
+            "alt": "Repairs image"
+          }
+        },
+        {
+          "title": "Engine & Gearbox",
+          "services": [
+            "Engine partial & total overhaul",
+            "Transmission services & repairs",
+            "MFI Pumps overhaul & calibration",
+            "IMS & RMS seals replacement"
+          ],
+          "img": {
+            "src": "/assets/images/engine.webp",
+            "alt": "Engine & Gearbox image"
+          }
+        }
+      ]
+    },
+    "bodywork": {
+      "title": "Bodywork & Paint",
+      "subtitle": [
+        "Regular maintenance is key to preserving your classic Porsche's performance and value.",
+        "We offer comprehensive inspection, servicing and repair services to keep your car running smoothly.",
+        "From oil changes to major engine overhauls, our experienced team ensures your Porsche receives the care it deserves."
+      ]
+    },
+    "preservation": {
+      "title": "Preservation Services",
+      "subtitle": [
+        "Regular maintenance is key to preserving your classic Porsche's performance and value.",
+        "We offer comprehensive inspection, servicing and repair services to keep your car running smoothly.",
+        "From oil changes to major engine overhauls, our experienced team ensures your Porsche receives the care it deserves."
+      ]
+    }
   }
 }
