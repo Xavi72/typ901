@@ -3,7 +3,6 @@
 import { getDictionary } from "@/app/[lang]/dictionaries";
 import Footer from "@/components/molecules/footer/footer";
 import ContactSection from "@/components/molecules/contactSection/contactSection";
-import MethodologySection from "@/components/molecules/methodologySection/methodologySection";
 import MoreProjectSection from "@/components/molecules/projectSection/moreProjectSection";
 import ProjectSection from "@/components/molecules/projectSection/projectsSection";
 import CurrentProjectsSection from "@/components/molecules/projectSection/currentProjectsSection";
@@ -20,10 +19,7 @@ export default async function RestorationsPage({
     <div className="flex flex-col w-full h-auto pt-24 items-center overflow-scroll bg-gray-800 relative">
       <div className="fixed top-0 left-0 w-full h-20 bg-gradient-to-b from-gray-800 to-transparent z-30"></div>
 
-      <div
-        id="hero-section"
-        className="flex flex-col w-full h-auto px-4 items-center gap-4"
-      >
+      <div className="flex flex-col w-full h-auto px-4 items-center gap-4">
         <h2 className="flex w-full h-auto justify-center text-xs md:text-sm text-white/50 font-normal uppercase text-center">
           {dict?.restorations?.claim}
         </h2>
@@ -58,7 +54,7 @@ export default async function RestorationsPage({
                   >
                     {title}
                   </h2>
-                )
+                ),
               )}
             </div>
           </div>
@@ -71,7 +67,7 @@ export default async function RestorationsPage({
                 >
                   {content}
                 </p>
-              )
+              ),
             )}
           </div>
         </div>
@@ -132,7 +128,7 @@ export default async function RestorationsPage({
                   >
                     {subtitle}
                   </p>
-                )
+                ),
               )}
             </div>
             <div className="flex flex-col md:flex-row w-full w-full h-auto mt-2 gap-4">
@@ -154,7 +150,7 @@ export default async function RestorationsPage({
                       </p>
                     </div>
                   </div>
-                )
+                ),
               )}
             </div>
           </div>
@@ -210,7 +206,7 @@ export default async function RestorationsPage({
                 <p key={item} className="text-white/50 text-xs sm:text-sm">
                   {item}
                 </p>
-              )
+              ),
             )}
           </div>
         </div>
