@@ -64,7 +64,7 @@ export default async function ServicesPage({
           </div>
         </div>
 
-        <div className="flex flex-col sm:flex-row w-full h-auto gap-4 md:mt-8">
+        <div className="flex flex-col sm:flex-row w-full h-auto gap-4 ">
           {dict?.services?.maintenance?.items?.map(
             (item: any, index: number) => (
               <div
@@ -109,10 +109,10 @@ export default async function ServicesPage({
         id="bodywork"
         className="flex flex-col w-full h-auto  py-20 px-4 gap-8 bg-black/20 items-center"
       >
-        <div className="flex flex-col md:flex-row w-full max-w-[1280px] gap-4 md:gap-8 items-center">
+        <div className="flex flex-col md:flex-row w-full max-w-[1280px] gap-4  items-center">
           <div className="flex flex-col w-full md:w-1/2 h-[260px] gap-2 rounded-sm overflow-hidden bg-blue-500">
             <img
-              src="/assets/images/workshop-exterior.webp"
+              src="/assets/images/bodywork/bodywork-paint.webp"
               alt="maintenance"
               className="w-auto h-full object-cover object-right"
             />
@@ -133,13 +133,36 @@ export default async function ServicesPage({
             </div>
           </div>
         </div>
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 w-full max-w-[1280px] gap-4 items-center">
+          {dict?.services?.bodywork?.images?.map(
+            (image: any, index: number) => (
+              <div
+                key={index}
+                className="flex flex-col w-full h-[200px] gap-2 rounded-sm overflow-hidden bg-blue-500"
+              >
+                <img
+                  src={image.src}
+                  alt={image.alt}
+                  className="w-full h-full object-cover object-top"
+                />
+              </div>
+            ),
+          )}
+          <div className="hidden sm:flex xl:hidden flex-col w-full h-[200px] gap-2 rounded-sm overflow-hidden bg-blue-500">
+            <img
+              src="/assets/images/bodywork/bodywork-paint-1.webp"
+              alt="Bodywork & Paint image"
+              className="w-full h-full object-cover object-top"
+            />
+          </div>
+        </div>
       </div>
       <div
         id="preservation"
         className="flex flex-col w-full max-w-[1280px] h-auto my-20 px-4 gap-8"
       >
-        <div className="flex flex-col md:flex-row w-full gap-4 md:gap-8 items-center">
-          <div className="flex flex-col w-full md:w-1/2 ">
+        <div className="flex flex-col md:flex-row w-full gap-4 ">
+          <div className="flex flex-col w-full lg:w-1/2 ">
             <div className="flex flex-row w-full h-auto gap-4 items-center">
               <div className="flex w-2 h-8 bg-red-500" />
               <h2 className="text-base sm:text-xl font-bold text-white">
@@ -153,15 +176,57 @@ export default async function ServicesPage({
                 </p>
               ))}
             </div>
+
+            <div className="hidden lg:flex flex-col w-full h-auto mt-8 gap-4">
+              {dict?.services?.preservation?.services?.map(
+                (service: any, index: number) => (
+                  <div
+                    key={index}
+                    className="flex flex-col w-full h-auto p-4 bg-black/10 rounded-sm overflow-hidden"
+                  >
+                    <p className="text-white text-sm font-bold">
+                      {service.title}
+                    </p>
+                    <p className="flex flex-col mt-2 text-white/70 text-xs">
+                      {service?.content?.map((item: any) => (
+                        <span key={item}>{item}</span>
+                      ))}
+                    </p>
+                  </div>
+                ),
+              )}
+            </div>
           </div>
-          <div className="flex flex-col w-full md:w-1/2 h-[260px] gap-2 rounded-sm overflow-hidden bg-blue-500">
+          <div className="flex flex-col shrink-0 w-full md:w-1/2 h-[260px] lg:h-full lg:min-h-[642px] gap-2 rounded-sm overflow-hidden bg-blue-500">
             <img
-              src="/assets/images/workshop-exterior.webp"
+              src="/assets/images/red-cars-grup.webp"
               alt="maintenance"
-              className="w-auto h-full object-cover object-right"
+              className="w-auto h-full min-h-[642px] object-cover object-center"
             />
           </div>
         </div>
+        <div className="flex lg:hidden flex-col w-full h-auto lg:mt-8 gap-4">
+          {dict?.services?.preservation?.services?.map(
+            (service: any, index: number) => (
+              <div
+                key={index}
+                className="flex flex-col w-full h-auto p-4 bg-black/10 rounded-sm overflow-hidden"
+              >
+                <p className="text-white text-sm font-bold">{service.title}</p>
+                <p className="flex flex-col mt-2 text-white/70 text-xs">
+                  {service?.content?.map((item: any) => (
+                    <span key={item}>{item}</span>
+                  ))}
+                </p>
+              </div>
+            ),
+          )}
+        </div>
+        {/* 
+        storage with controls
+        hielo seco
+        cleaning for sale
+         */}
       </div>
       <div className="flex flex-col w-full h-auto bg-black/5 items-center">
         <ContactSection dict={dict?.contact_section} usedLanguage={lang} />

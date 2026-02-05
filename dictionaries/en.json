@@ -639,7 +639,7 @@
             "Filters replacement",
             "Tires replacement & Wheels alignment",
             "Brakes replacement"
-          ], 
+          ],
           "img": {
             "src": "/assets/images/maintenance-motor.webp",
             "alt": "Maintenance image"
@@ -679,6 +679,40 @@
         "Regular maintenance is key to preserving your classic Porsche's performance and value.",
         "We offer comprehensive inspection, servicing and repair services to keep your car running smoothly.",
         "From oil changes to major engine overhauls, our experienced team ensures your Porsche receives the care it deserves."
+      ],
+      "images": [
+        {
+          "src": "/assets/images/bodywork/bodywork-paint-10.webp",
+          "alt": "Bodywork & Paint image"
+        },
+        {
+          "src": "/assets/images/bodywork/bodywork-paint-2.webp",
+          "alt": "Bodywork & Paint image"
+        },
+        {
+          "src": "/assets/images/bodywork/bodywork-paint-3.webp",
+          "alt": "Bodywork & Paint image"
+        },
+        {
+          "src": "/assets/images/bodywork/bodywork-paint-4.webp",
+          "alt": "Bodywork & Paint image"
+        },
+        {
+          "src": "/assets/images/bodywork/bodywork-paint-9.webp",
+          "alt": "Bodywork & Paint image"
+        },
+        {
+          "src": "/assets/images/bodywork/bodywork-paint-6.webp",
+          "alt": "Bodywork & Paint image"
+        },
+        {
+          "src": "/assets/images/bodywork/bodywork-paint-7.webp",
+          "alt": "Bodywork & Paint image"
+        },
+        {
+          "src": "/assets/images/bodywork/bodywork-paint-8.webp",
+          "alt": "Bodywork & Paint image"
+        }
       ]
     },
     "preservation": {
@@ -687,6 +721,11 @@
         "Regular maintenance is key to preserving your classic Porsche's performance and value.",
         "We offer comprehensive inspection, servicing and repair services to keep your car running smoothly.",
         "From oil changes to major engine overhauls, our experienced team ensures your Porsche receives the care it deserves."
+      ],
+      "services": [
+        { "title": "Storage with climate control", "content": ["Secure, climate-controlled storage for long-term parking of your porsche.","Additional storage services available such as battery control and charge, tyres removal and storage, etc..."] },
+        { "title": "Pre-sale vehicle preparation", "content": ["Comprehensive detailing and mechanical checks for sale readiness"] },
+        { "title": "Dry ice blasting", "content": ["Advanced surface preparation without damaging paint or metal"] }
       ]
     }
   }
