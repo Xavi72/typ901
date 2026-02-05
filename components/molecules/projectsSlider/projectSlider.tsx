@@ -6,10 +6,10 @@ import { useState } from "react";
 
 const ProjectSlider = ({ dict }: { dict: any }) => {
   const [currentProject, setCurrentProject] = useState(
-    dict?.content?.[0]?.title || ""
+    dict?.content?.[0]?.title || "",
   );
   const [selectedProject, setSelectedProject] = useState(
-    dict?.content?.[0]?.image_url || ""
+    dict?.content?.[0]?.image_url || "",
   );
   return (
     <div className="flex flex-col w-full h-auto ">
@@ -25,7 +25,7 @@ const ProjectSlider = ({ dict }: { dict: any }) => {
           {dict?.content?.map((content: any) => (
             <div
               key={content?.title}
-              className={`flex flex-col w-auto md:w-full h-auto md:h-1/3 gap-2 items-center rounded-sm px-4 py-2 cursor-pointer ${
+              className={`flex flex-col w-auto md:w-full h-auto md:h-1/3 gap-2 items-center rounded-sm px-4 py-2 cursor-pointer active:scale-[99%] transition-all duration-200 ${
                 currentProject === content?.title
                   ? "border-[2px] border-red-500"
                   : "border-[0.5px] border-red-500/40 "
