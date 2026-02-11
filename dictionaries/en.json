@@ -30,14 +30,14 @@
       "title": "Typ901",
       "content": [
         {
-          "title": "Cars for sale",
-          "link": "https://www.elferspot.com/en/dealer/typ901-classic-porsche-expert/",
-          "target": "_blank"
-        },
-        {
           "title": "Our story",
           "link": "/about-us",
           "target": "_self"
+        },
+        {
+          "title": "Cars for sale",
+          "link": "https://www.elferspot.com/en/dealer/typ901-classic-porsche-expert/",
+          "target": "_blank"
         },
         {
           "title": "Rolling Museum",
@@ -723,9 +723,9 @@
         "From oil changes to major engine overhauls, our experienced team ensures your Porsche receives the care it deserves."
       ],
       "services": [
-        { "title": "Storage with climate control", "content": ["Secure, climate-controlled storage for long-term parking of your porsche.","Additional storage services available such as battery control and charge, tyres removal and storage, etc..."] },
+        { "title": "Dry ice blasting", "content": ["Advanced surface preparation without damaging paint or metal"] },
         { "title": "Pre-sale vehicle preparation", "content": ["Comprehensive detailing and mechanical checks for sale readiness"] },
-        { "title": "Dry ice blasting", "content": ["Advanced surface preparation without damaging paint or metal"] }
+        { "title": "Storage with climate control", "content": ["Secure, climate-controlled storage for long-term parking of your porsche.","Additional storage services available such as battery control and charge, tyres removal and storage, etc..."] }
       ]
     }
   }

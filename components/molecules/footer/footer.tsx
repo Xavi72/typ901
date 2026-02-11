@@ -62,7 +62,11 @@ export default async function Footer({
               {menu?.menu_col_2?.content?.map((item: any, index: any) => (
                 <li key={index} className="flex flex-col w-auto h-auto gap-2">
                   <Link
-                    href={`/${usedLanguage}/${item?.link}`}
+                    href={
+                      item?.target === "_blank"
+                        ? item?.link
+                        : `/${usedLanguage}/${item?.link}`
+                    }
                     target={item.target}
                     className="text-xs sm:text-sm text-center  text-white hover:text-white/50 cursor-pointer active:scale-95 transition-all ease-in-out duration-200"
                   >

@@ -30,16 +30,15 @@
       "title": "Typ901",
       "content": [
         {
-          "title": "À vendre",
-          "link": "https://www.elferspot.com/en/dealer/typ901-classic-porsche-expert/",
-          "target": "_blank"
-        },
-        {
           "title": "Notre histoire",
           "link": "/about-us",
           "target": "_self"
         },
-      
+        {
+          "title": "À vendre",
+          "link": "https://www.elferspot.com/en/dealer/typ901-classic-porsche-expert/",
+          "target": "_blank"
+        },
         {
           "title": "Rolling Museum",
           "link": "https://therollingmuseum.com/",
