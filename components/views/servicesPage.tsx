@@ -148,6 +148,8 @@ export default async function ServicesPage({
               </div>
             ),
           )}
+
+          {/* trough 20 years of cars refurbishing we hav developped a mastercraft expertise in bodywork & paint */}
           <div className="hidden sm:flex xl:hidden flex-col w-full h-[200px] gap-2 rounded-sm overflow-hidden bg-blue-500">
             <img
               src="/assets/images/bodywork/bodywork-paint-1.webp"
