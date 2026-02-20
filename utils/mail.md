@@ -1,2 +1,0 @@
-- hemos considerado el panorama actual y establecido una imagen que permite diferenciar a Typ901 de los demás especialistas. Cada uno tiene su especialización al final
-- 

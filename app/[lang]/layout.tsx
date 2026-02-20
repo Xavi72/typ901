@@ -3,6 +3,7 @@ import { DM_Sans } from "next/font/google";
 import "@/styles/globals.css";
 import Cookies from "@/components/molecules/cookiesBanner/cookies";
 import Header from "@/components/molecules/header/header";
+import ProtectedRoute from "@/components/auth/ProtectedRoute";
 
 const dmSans = DM_Sans({
   variable: "--font-dm-sans",
@@ -24,9 +25,11 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className={`${dmSans.className} antialiased scroll-smooth `}>
-        <Header params={params} />
-        {children}
-        <Cookies params={params} />
+        <ProtectedRoute>
+          <Header params={params} />
+          {children}
+          <Cookies params={params} />
+        </ProtectedRoute>
       </body>
     </html>
   );
