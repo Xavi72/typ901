@@ -4,7 +4,7 @@ import "@/styles/globals.css";
 import Cookies from "@/components/molecules/cookiesBanner/cookies";
 import Header from "@/components/molecules/header/header";
 import ProtectedRoute from "@/components/auth/ProtectedRoute";
-
+import { Analytics } from "@vercel/analytics/react";
 const dmSans = DM_Sans({
   variable: "--font-dm-sans",
   subsets: ["latin"],
@@ -24,13 +24,14 @@ export default async function RootLayout({
 }>) {
   const resolvedParams = await params;
   return (
-    <html lang="es">
+    <html lang={resolvedParams.lang}>
       <body className={`${dmSans.className} antialiased scroll-smooth `}>
         <ProtectedRoute>
           <Header params={resolvedParams} />
           {children}
           <Cookies params={resolvedParams} />
         </ProtectedRoute>
+        <Analytics />
       </body>
     </html>
   );
