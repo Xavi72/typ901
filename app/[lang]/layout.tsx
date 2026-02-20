@@ -12,23 +12,24 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   title: "Typ901 Use case",
-  description: "Made with love by codekickers",
+  description: "Porsche classics expert",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   params,
   children,
 }: Readonly<{
   children: React.ReactNode;
-  params: { lang: string };
+  params: Promise<{ lang: string }>;
 }>) {
+  const resolvedParams = await params;
   return (
     <html lang="es">
       <body className={`${dmSans.className} antialiased scroll-smooth `}>
         <ProtectedRoute>
-          <Header params={params} />
+          <Header params={resolvedParams} />
           {children}
-          <Cookies params={params} />
+          <Cookies params={resolvedParams} />
         </ProtectedRoute>
       </body>
     </html>
