@@ -246,23 +246,23 @@
         "title": "Prochains road trips",
         "content": [
           {
-            "name": "Sitges - Costa Brava",
-            "date": "14 - 16 janvier 2026",
-            "trip_url": "https://therollingmuseum.com/costa-brava-road-trip-january-2026/"
-          },
-          {
             "name": "Autódrom Terramar - Priorat",
-            "date": "22 - 24 avril 2026",
+            "date": "22 - 24 avril 2026 - SOLD OUT",
             "trip_url": "https://therollingmuseum.com/piorat-road-trip-april-2026/"
           },
           {
             "name": "Autódrom Terramar to Priorat",
-            "date": "27 - 29 mai 2026",
-            "trip_url": "https://therollingmuseum.com/priorat-road-trip-may-2026/"
+            "date": "17 - 19 Juin 2026",
+            "trip_url": "https://therollingmuseum.com/priorat-road-trip-17-18-19-june-2026/"
+          },
+          {
+            "name": "Autódrom Terramar to Priorat",
+            "date": "16 - 18 septembre 2026",
+            "trip_url": "https://therollingmuseum.com/priorat-road-trip-16-17-18-september-2026/"
           }
         ]
       },
-      "cta": "Reservez votre siège!",
+      "cta": "Reservez votre volant!",
       "cta_link": "https://therollingmuseum.com/"
     }
   },
@@ -623,11 +623,131 @@
       "less_button": "Voir moins de véhicules"
     }
   },
-
-  "preservation": {
-    "title": "Preservation Services",
+  "services": {
+    "claim": "Services",
+    "title": "Porsche Classic Expert",
     "subtitle": [
-      "We offer a wide range of services to ensure the best possible care for your Porsche."
-    ]
+      "Parce que nous sommes des spécialistes Porsche, nous entendons les besoins uniques de ces machines de légende.",
+      "Nous offrons les soins spécialisés dont votre Porsche classique a besoin."
+    ],
+    "maintenance": {
+      "title": "Révisions & Réparations",
+      "subtitle": [
+        "L'entretien régulier est la clé pour préserver la performance et la valeur de votre Porsche classique.",
+        "Nous offrons des services d'inspection, d'entretien et de réparation complets pour maintenir le parfait fonctionnement de votre voiture comme le jour de sa sortie d'usine.",
+        "Du changement d'huile jusqu'à la réfection moteur, notre équipe expérimentée s'assure que votre véhicule reçoive les services qu'elle mérite."
+      ],
+      "items": [
+        {
+          "title": "Maintenance",
+          "services": [
+            "Changements d'huile & fluides",
+            "Changement de filtres",
+            "Changement de pneus & alignement de roues",
+            "Changement de freins"
+          ],
+          "img": {
+            "src": "/assets/images/maintenance-motor.webp",
+            "alt": "Maintenance image"
+          }
+        },
+        {
+          "title": "Réparations",
+          "services": [
+            "Diagnostique des systèmes électriques",
+            "Remplacement de suspension et direction",
+            "Remplacement de toutes pièces mécaniques",
+            "Améliorations mécaniques"
+          ],
+          "img": {
+            "src": "/assets/images/brakes.webp",
+            "alt": "Repairs image"
+          }
+        },
+        {
+          "title": "Moteurs & Boîtes de vitesses",
+          "services": [
+            "Réfection partielle et totale de moteurs",
+            "Services et réparations de boîtes de vitesses",
+            "Réparation et calibration de pompes MFI",
+            "Remplacement d'IMS et RMS"
+          ],
+          "img": {
+            "src": "/assets/images/engine-service.webp",
+            "alt": "Engine & Gearbox image"
+          }
+        }
+      ]
+    },
+    "bodywork": {
+      "title": "Carrosserie et peinture",
+      "subtitle": [
+         "De la réparation de bosses sans intervention invasive aux travaux majeurs de carrosserie et de restauration, nous disposons de l’expertise nécessaire pour prendre en charge tout type de projet.",
+        "Nos techniciens qualifiés utilisent des équipements de pointe et des matériaux de haute qualité afin de garantir des résultats conformes aux spécifications d’origine de Porsche."
+      ],
+      "images": [
+        {
+          "src": "/assets/images/bodywork/bodywork-paint-10.webp",
+          "alt": "Bodywork & Paint image"
+        },
+        {
+          "src": "/assets/images/bodywork/bodywork-paint-2.webp",
+          "alt": "Bodywork & Paint image"
+        },
+        {
+          "src": "/assets/images/bodywork/bodywork-paint-3.webp",
+          "alt": "Bodywork & Paint image"
+        },
+        {
+          "src": "/assets/images/bodywork/bodywork-paint-4.webp",
+          "alt": "Bodywork & Paint image"
+        },
+        {
+          "src": "/assets/images/bodywork/bodywork-paint-9.webp",
+          "alt": "Bodywork & Paint image"
+        },
+        {
+          "src": "/assets/images/bodywork/bodywork-paint-6.webp",
+          "alt": "Bodywork & Paint image"
+        },
+        {
+          "src": "/assets/images/bodywork/bodywork-paint-7.webp",
+          "alt": "Bodywork & Paint image"
+        },
+        {
+          "src": "/assets/images/bodywork/bodywork-paint-8.webp",
+          "alt": "Bodywork & Paint image"
+        }
+      ]
+    },
+    "preservation": {
+      "title": "Services de préservation",
+      "subtitle": [
+        "À la différence de la maintenance des voitures normales, une Porsche classique recquière des connaissances spécialisées et une attention particulière pour prévenir la détérioration majeure lorsqu'elle n'est pas utilisée régulièrement.",
+        "Nous mettons à votre disposition des services dédiés dans nos ateliers pour que vous puissiez profiter uniquement du plaisir de la conduite."
+      ],
+      "services": [
+        {
+          "title": "Lavage cryogénique et traitement anti-corrosion",
+          "content": [
+            "Préparation avancée des surfaces sans endommager la peinture ou le métal, avant traitement anti-corrosion, pour maintenir les composants internes de votre Porsche dans leur meilleur état."
+          ]
+        },
+        {
+          "title": "Préparation de véhicules pour la vente",
+          "content": [
+            "Préparation esthétique intégrale et révisions mécaniques complètes pour garantir que le véhicule soit prêt pour la vente.",
+            "Notre activité principale depuis 2004, avec plus de 35.000 véhicules reconditionnés à ce jour."
+          ]
+        },
+        {
+          "title": "Stockage avec température contrôlée",
+          "content": [
+            "Stockage sécurisé avec température contrôlée pour stationnement à long terme de votre Porsche.",
+            "Services de stockage supplémentaires disponibles comme contrôle et charge de batterie, stockage de pneus, etc..."
+          ]
+        }
+      ]
+    }
   }
 }

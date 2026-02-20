@@ -240,20 +240,21 @@
       "calendar": {
         "title": "Next road trips",
         "content": [
-          {
-            "name": "Sitges to Costa Brava",
-            "date": "14th - 16th of January 2026",
-            "trip_url": "https://therollingmuseum.com/costa-brava-road-trip-january-2026/"
-          },
+          
           {
             "name": "Autódrom Terramar to Priorat",
-            "date": "22th - 24th of April 2026",
+            "date": "22th - 24th of April 2026 - SOLD OUT",
             "trip_url": "https://therollingmuseum.com/piorat-road-trip-april-2026/"
           },
           {
             "name": "Autódrom Terramar to Priorat",
-            "date": "27th - 29th of May 2026",
-            "trip_url": "https://therollingmuseum.com/priorat-road-trip-may-2026/"
+            "date": "17th - 19th of June 2026",
+            "trip_url": "https://therollingmuseum.com/priorat-road-trip-17-18-19-june-2026/"
+          },
+          {
+            "name": "Autódrom Terramar to Priorat",
+            "date": "16th - 18th of September 2026",
+            "trip_url": "https://therollingmuseum.com/priorat-road-trip-16-17-18-september-2026/"
           }
         ]
       },
@@ -622,7 +623,8 @@
     "claim": "Services",
     "title": "Porsche Classic Expert",
     "subtitle": [
-      "Since 2014, we provide the specialized care that classic Porsche models require."
+      "As Porsche specialists, we understand the unique needs of these legendary machines.",
+      "We are proud to provide the specialized care that your classic Porsche model require."
     ],
     "maintenance": {
       "title": "Maintenance & Repairs",
@@ -676,9 +678,9 @@
     "bodywork": {
       "title": "Bodywork & Paint",
       "subtitle": [
-        "Regular maintenance is key to preserving your classic Porsche's performance and value.",
-        "We offer comprehensive inspection, servicing and repair services to keep your car running smoothly.",
-        "From oil changes to major engine overhauls, our experienced team ensures your Porsche receives the care it deserves."
+        
+        "From uninvasive dents removal to major bodywork repairs and restorations, we have the expertise to handle any job.",
+        "Our skilled technicians use state-of-the-art equipment and high-quality materials to ensure results that match original Porsche specifications."
       ],
       "images": [
         {
@@ -718,21 +720,21 @@
     "preservation": {
       "title": "Preservation Services",
       "subtitle": [
-        "Regular maintenance is key to preserving your classic Porsche's performance and value.",
-        "We offer comprehensive inspection, servicing and repair services to keep your car running smoothly.",
-        "From oil changes to major engine overhauls, our experienced team ensures your Porsche receives the care it deserves."
+        "Unlike regular car maintenance, a classic Porsche requires specialized knowledge and attention to detail to prevent major deterioration when not driven frequently.",
+        "We have made available dedicated services in our installationsto let you enjoy only the fun and driving part."
       ],
       "services": [
         {
-          "title": "Dry ice blasting",
+          "title": "Dry ice blasting & anti-corrosion treatment",
           "content": [
-            "Advanced surface preparation without damaging paint or metal"
+            "Advanced surface preparation without damaging paint or metal prior to anti-corrosion treatment to maintain your Porsche inner components at their best condition."
           ]
         },
         {
           "title": "Pre-sale vehicle preparation",
           "content": [
-            "Comprehensive detailing and mechanical checks for sale readiness"
+            "Comprehensive detailing and mechanical checks for sale readiness.",
+            "Our core business since 2004 with more than 35 000 vehicles reconditioned so far."
           ]
         },
         {
