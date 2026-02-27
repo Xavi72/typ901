@@ -5,8 +5,8 @@ import { useRouter } from "next/navigation";
 import EyeIcon from "@/public/assets/icons/eye.svg";
 import EyeOffIcon from "@/public/assets/icons/eye-off.svg";
 
-// Get password from environment variable
-const SITE_PASSWORD = "901.101";
+// Get password from .env.local
+const SITE_PASSWORD = process.env.NEXT_PUBLIC_ACCESS_PASSWORD;
 
 export default function PasswordProtection() {
   const [password, setPassword] = useState("");
